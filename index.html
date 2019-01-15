@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="nl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="web.css">
+</head>
+
+<body>
+    <header>
+        <div class="header">
+            <img src="images/logo.jpg" alt="Logo Eurostar" height="100" width="150">
+            <nav>
+                <a href="profiel.html">
+                    <img alt="profiel" src="images/profiel.png" width="50" height="50">
+                </a>
+                <input class="zoeken" type="search" placeholder="Zoeken...">
+                <ul>
+                    <li>
+                        <p><a href="favorieten.html">Favorieten</a></p>
+                    </li>
+                    <li>
+                        <p><a href="">Downloads</a></p>
+                    </li>
+                    <li>
+                        <p><a href="">Aanbevolen</a></p>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <!-- Use any element to open the sidenav -->
+    <img src="images/filter.png" alt="filter" class="filtericon" onclick="openNav()">
+    <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <form class="sidefilter">
+            <input type="checkbox" name="stars" value="1" /> Agressief
+            <input type="checkbox" name="stars" value="3" checked="checked" /> Humor
+            <input type="checkbox" name="stars" value="5" checked="checked" /> Poezie
+            <input type="checkbox" name="stars" value="1" checked="checked" /> Romans
+            <input type="checkbox" name="stars" value="3" checked="checked" /> Spanning
+            <input type="checkbox" name="stars" value="5" checked="checked" /> Thrillers
+        </form>
+    </div>
+
+    <img src="images/menu.png" alt="menu" class="menuicon" onclick="openNav2()">
+    <div id="mySideMenu" class="sideMenu">
+        <a href="javascript:void(0)" class="closebtn2" onclick="closeNav2()">&times;</a>
+        <a href="favorieten.html">Favorieten</a>
+        <a href="#">Downloads</a>
+        <a href="#">Aanbevolen</a>
+        <a href="#">Veras me</a>
+    </div>
+    <div id="main">
+        <h1>De 99 verhalen</h1>
+        <button class="Verasme">Veras me</button>
+        <h2>Trending</h2>
+        <section>
+            <article class="Hetgebrek">
+                <img src="images/hartjeleeg.png" alt="hartje" id="favorieten">
+                <h3>Het gebrek</h3>
+                <p>De bus uit. Mijn zoon tukt in zijn kinderkoets. Eindelijk. Ik loop over het plein. Een gierende wind en een striemende miezerregen geselen mijn gezicht. De mensen kijken voor zich uit, ieder voor zich.
+                </p>
+                <form method="get" action="verhaal.html">
+                    <button type="submit">Lees verder</button>
+                </form>
+            </article>
+
+            <article class="Sportcommentaar">
+                <img src="images/hartjeleeg.png" alt="hartje" class="favorieten">
+                <h3>Sportcommentaar</h3>
+                <p>En daar stopt lijn 21 op exact de juiste tijd op precies de juiste plek op het Stationsplein. De deuren gaat open, de spanning is te snijden. En wie komt daar als eerste uit?</p>
+                <form method="get" action="verhaal.html">
+                    <button type="submit">Lees verder</button>
+                </form>
+            </article>
+
+            <article class="Verliefd">
+                <img src="images/hartjeleeg.png" alt="hartje" class="favorieten">
+                <h3>Verliefd</h3>
+                <p>Licht van mijn leven. Ik stapte vandaag bus 21 uit. Het was op het midden van de dag. En wat een heerlijke dag! Het was twaalf uur, onze fantastische zoon sliep net.</p>
+                <form method="get" action="verhaal.html">
+                    <button type="submit">Lees verder</button>
+                </form>
+            </article>
+        </section>
+        <h2>Aanbevolen</h2>
+        <section>
+            <article class="Nicodijkshoorn">
+                <img src="images/hartjeleeg.png" alt="hartje" class="favorieten">
+                <h3>Nico Dijkshoorn die Smart Smeets imiteert</h3>
+                <p>Ik stap uit een, ja wat is het eigenlijk?, een bus. Lijn 21? Zou zomaar kunnen. Twaalf uur.In de middag. Mijn zoon, luistert u mee?</p>
+                <form method="get" action="verhaal.html">
+                    <button type="submit">Lees verder</button>
+                </form>
+            </article>
+
+            <article class="Terugspoelen">
+                <img src="images/hartjeleeg.png" alt="hartje" class="favorieten">
+                <h3>Terugspoelen</h3>
+                <p>In een babywinkel op het Bos en Lommerplein koop ik babyschoentjes.Teleurgesteld verlaat ik de bibliotheek. Dat geloof je toch niet? Ik ben de hele tijd al op de tweede verdieping aan het zoeken.</p>
+                <form method="get" action="verhaal.html">
+                    <button type="submit">Lees verder</button>
+                </form>
+            </article>
+
+            <article class="Vanvader">
+                <img src="images/hartjeleeg.png" alt="hartje" class="favorieten">
+                <h3>Van vader tot zoon</h3>
+                <p>Je ligt vredig in je wagen te slapen als ik de bus uitstap op die druilerige dag in februari van het jaar 2011. In je groene wagentje. (Daar wil je inmiddels, nu ik dit schrijf, niet meer in.</p>
+                <form method="get" action="verhaal.html">
+                    <button type="submit">Lees verder</button>
+                </form>
+            </article>
+        </section>
+    </div>
+    <script src="web.js"></script>
+</body>
+
+</html>

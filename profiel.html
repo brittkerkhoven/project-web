@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="web.css">
+</head>
+
+<body>
+
+    <header>
+        <div class="header">
+            <img src="images/logo.jpg" alt="Logo Eurostar" height="100" width="150">
+            <nav>
+                <a href="profiel.html">
+                    <img alt="profiel" src="images/profiel.png" width="50" height="50">
+                </a>
+                <input class="zoeken" type="search" placeholder="Zoeken...">
+                <ul>
+                    <li>
+                        <p><a href="">Favorieten</a></p>
+                    </li>
+                    <li>
+                        <p><a href="">Downloads</a></p>
+                    </li>
+                    <li>
+                        <p><a href="">Aanbevolen</a></p>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main class="profiel">
+        <h2>Account aanmaken</h2>
+        <form class="persoonlijkeinformatie">
+            <fieldset>
+                <legend>Persoonlijke informatie</legend>
+                Voornaam:<br>
+                <input type="text" name="firstname" required="required">
+                <br> Achternaam:
+                <br>
+                <input type="text" name="lastname" required="required">
+                <br> Wachtwoord:
+                <br>
+                <input type="password" name="password" required="required">
+                <br> Geboortedatum: <br>
+                <input type="date" name="birth">
+            </fieldset>
+        </form>
+
+        <form class="contactgegevens">
+            <fieldset>
+                <legend>Contact gegevens</legend>
+                Adres:<br>
+                <input type="text" name="adres" required="required"><br> Postcode:
+                <br>
+                <input type="text" name="postcode" required="required"><br> Telefoonnummer:
+                <br>
+                <input type="text" name="nummer" required="required"><br> Email:
+                <br>
+                <input type="email" name="email" required="required"><br>
+                <input class="aanmelden" type="submit" value="Aanmelden">
+                <br>
+                <p><a href="inloggen.html" class="account">Ik heb al een account</a></p>
+            </fieldset>
+
+
+        </form>
+
+    </main>
+    <script src="java.js"></script>
+</body>
+
+</html>
