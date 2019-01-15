@@ -1,5 +1,6 @@
 # project-web
 link naar mijn website
+https://brittkerkhoven.github.io/project-web/
 
 index.html > homepagina
 gekoppeld aan web.css en web.js
