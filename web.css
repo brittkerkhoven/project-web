@@ -501,7 +501,7 @@ input[type=checkbox]:after {
 .filtericon {
     width: 2em;
     height: 2em;
-    margin-left: 4em;
+    margin-left: 1em;
     margin-top: 1em;
     padding: 0;
     display: inline;
