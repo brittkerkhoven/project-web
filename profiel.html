@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>99 verhalen van Eurostar</title>
-    <link rel="stylesheet" type="text/css" href="web.css">
+    <link rel="stylesheet" type="text/css" href="css/web.css">
 </head>
 
 <body>
@@ -20,7 +20,7 @@
                 <input class="zoeken" type="search" placeholder="Zoeken...">
                 <ul>
                     <li>
-                        <p><a href="">Favorieten</a></p>
+                        <p><a href="favorieten.html">Favorieten</a></p>
                     </li>
                     <li>
                         <p><a href="">Downloads</a></p>
@@ -32,45 +32,47 @@
             </nav>
         </div>
     </header>
-    <main class="profiel">
-        <h2>Account aanmaken</h2>
-        <form class="persoonlijkeinformatie">
-            <fieldset>
-                <legend>Persoonlijke informatie</legend>
-                Voornaam:<br>
-                <input type="text" name="firstname" required="required">
-                <br> Achternaam:
-                <br>
-                <input type="text" name="lastname" required="required">
-                <br> Wachtwoord:
-                <br>
-                <input type="password" name="password" required="required">
-                <br> Geboortedatum: <br>
-                <input type="date" name="birth">
-            </fieldset>
-        </form>
+    <main>
+        <section>
+            <article class="account">
+                <h1>Account aanmaken</h1>
+            </article>
+        </section>
+        <section class="achtergrond">
+            <article class="achtergrond2">
+                <form class="persoonlijkeinformatie">
+                    <fieldset>
+                        <label for="Voornaam">Voornaam</label>
+                        <div class="formulier"><input type="text" name="firstname" id="Voornaam" required="required"></div>
+                        <label for="Achternaam">Achternaam</label>
+                        <div class="formulier"><input type="text" name="lastname" id="Achternaam" required="required"></div>
+                        <label for="Wachtwoord">Wachtwoord</label>
+                        <div class="formulier"><input type="password" name="password" id="Wachtwoord" required="required"></div>
+                        <label for="Geboortedatum">Geboortedatum</label>
+                        <div class="formulier"><input type="date" name="birth" id="Geboortedatum" required="required"></div>
+                    </fieldset>
+                </form>
 
-        <form class="contactgegevens">
-            <fieldset>
-                <legend>Contact gegevens</legend>
-                Adres:<br>
-                <input type="text" name="adres" required="required"><br> Postcode:
-                <br>
-                <input type="text" name="postcode" required="required"><br> Telefoonnummer:
-                <br>
-                <input type="text" name="nummer" required="required"><br> Email:
-                <br>
-                <input type="email" name="email" required="required"><br>
-                <input class="aanmelden" type="submit" value="Aanmelden">
-                <br>
-                <p><a href="inloggen.html" class="account">Ik heb al een account</a></p>
-            </fieldset>
+                <form class="contactgegevens">
+                    <fieldset>
+                        <label for="Adres">Adres</label>
+                        <div class="formulier"><input type="text" name="adres" id="Adres" required="required"></div>
+                        <label for="Postcode">Postcode</label>
+                        <div class="formulier"><input type="text" name="postcode" id="Postcode" required="required"></div>
+                        <label for="Nummer">Nummer</label>
+                        <div class="formulier"><input type="text" name="nummer" id="Nummer" required="required"></div>
+                        <label for="Email">Email</label>
+                        <div class="formulier"><input type="email" name="email" id="Email" required="required"></div>
+                        <div class="formulier"><input class="aanmelden" type="submit" value="Account aanmaken"></div>
+                        <p><a href="inloggen.html" class="alAccount">Al op Eurostar? <span class="Extra">Login</span></a></p>
+                    </fieldset>
 
-
-        </form>
+                </form>
+            </article>
+        </section>
 
     </main>
-    <script src="java.js"></script>
+    <script src="js/java.js"></script>
 </body>
 
 </html>
