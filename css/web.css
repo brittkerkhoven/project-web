@@ -1,0 +1,693 @@
+body {
+    margin: 0em;
+}
+
+
+/* Navigatie bar */
+
+header {
+    background-color: #011633;
+    font-family: arial;
+    overflow: hidden;
+    height: 6em;
+}
+
+.zoeken {
+    float: right;
+    width: 13em;
+}
+
+nav a {
+    float: right;
+    color: white;
+    padding-left: 1em;
+    padding-top: 1.5em;
+    padding-right: 1em;
+}
+
+nav input {
+    margin-top: 1.5em;
+    margin-left: 1em;
+    margin-right: 0.5em;
+}
+
+nav ul {
+    padding: 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: block;
+    margin-top: 3em;
+    list-style: none;
+    text-align: center;
+    border: 1px solid;
+    background-color: #31415F;
+}
+
+nav ul a {
+    color: white;
+    display: block;
+    float: left;
+    text-align: center;
+    padding: 0.5em;
+    font-size: 1em;
+    text-decoration: none;
+}
+
+header img {
+    display: inline-block;
+    float: left;
+}
+
+nav button {
+    float: right;
+}
+
+li a:hover {
+    background-color: #fada35;
+    color: black;
+}
+
+input[type=search] {
+    margin-top: 2.3em;
+}
+
+button:hover {
+    color: white;
+    background-color: #fada35;
+    font-size: 1em;
+    border-radius: 0.5em;
+}
+
+.menu {
+    display: none;
+}
+
+
+/* lettertype arial maken voor p en h*/
+
+h1 {
+    text-align: center;
+    font-family: arial;
+}
+
+h2 {
+    text-align: center;
+    font-family: arial;
+}
+
+h3 {
+    font-family: arial;
+}
+
+p {
+    font-family: arial;
+}
+
+article p {
+    margin-top: 0;
+    margin-bottom: 0.4em
+}
+
+article h3 {
+    margin-top: 0;
+}
+
+form {
+    font-family: arial;
+}
+
+
+/* formulier inloggen */
+
+.account {
+    width: 100%;
+    background-color: #91d0dd;
+}
+
+.achtergrond {
+    background-color: #91d0dd;
+    width: 100%;
+    height: 80em;
+}
+
+.achtergrond2 {
+    background-color: white;
+    border-radius: 0.5em;
+    height: 70%;
+    width: 25em;
+}
+
+.achtergrond3 {
+    background-color: white;
+    border-radius: 0.5em;
+    height: 30%;
+    width: 25em;
+}
+
+input {
+    color: #55565a;
+    font-family: arial;
+    font-size: 1em;
+    width: 20em;
+    height: 2em;
+    border-radius: 0.25em;
+}
+
+fieldset {
+    border: none;
+    color: #55565a;
+    font-family: arial;
+    padding-top: 1em;
+    margin-left: 1em;
+    font-size: 1em
+}
+
+fieldset label {
+    margin-left: 0.5em;
+}
+
+article {
+    display: block;
+}
+
+.formulier {
+    margin: 0.62em;
+    padding-bottom: 0.62em;
+}
+
+.account h1 {
+    color: #011633;
+    font-family: sans-serif;
+    line-height: 38px;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+input[type=text]:focus {
+    outline: none;
+    border: 0.10em solid #24b5c9;
+    border-radius: 0.25em;
+}
+
+input[type=password]:focus {
+    outline: none;
+    border: 0.10em solid #24b5c9;
+    border-radius: 0.25em;
+}
+
+input[type=email]:focus {
+    outline: none;
+    border: 0.10em solid #24b5c9;
+    border-radius: 0.25em;
+}
+
+input[type=date]:focus {
+    outline: none;
+    border: 0.10em solid #24b5c9;
+    border-radius: 0.25em;
+}
+
+textarea {
+    background-color: #f8f8f8;
+    width: 25%;
+    height: 10em;
+    border-radius: 0.25em;
+    border: 0.12em solid #ccc;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    outline: none;
+}
+
+input[type=submit] {
+    background-color: #24b5c9;
+    box-shadow: #1e96a6;
+    border-radius: 0.25em;
+    text-transform: uppercase;
+    text-align: center;
+    color: white;
+    padding: 0.5em 1em;
+    text-decoration: none;
+    margin: 0.5em 0.2em;
+    cursor: pointer;
+    width: 15em;
+    height: 3em;
+    margin-left: 2.8em;
+}
+
+#Inloggen {
+    background-color: #fbdd0f;
+    box-shadow: #55565a;
+    color: #55565a;
+    text-transform: uppercase;
+    border-radius: 0.25em;
+    text-align: center;
+    padding: 0.5em 1em;
+    margin: 0.5em 0.2em;
+    cursor: pointer;
+    width: 15em;
+    height: 3em;
+    margin-left: 2.8em;
+}
+
+form {
+    line-height: 1.5;
+}
+
+form a {
+    color: darkgrey;
+    font-family: arial;
+    text-decoration: none;
+    margin-left: 6.4em;
+}
+
+span.Extra {
+    color: #24b5c9;
+}
+
+span.span2 {
+    color: #24b5c9;
+    margin-left: 6.3em;
+}
+
+
+/* button */
+
+.Verasme {
+    float: right;
+    margin-right: 2em;
+    display: inline;
+}
+
+
+/* section 1 */
+
+article {
+    background-color: lightgrey;
+}
+
+section {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    margin-bottom: 0em;
+    margin-top: 0em;
+}
+
+.Hetgebrek {
+    border: outset;
+    border-width: 5px;
+    border-color: #91d0dd;
+    width: 15em;
+    height: 15em;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+    margin-right: 1em;
+    margin-top: 0.5em;
+    float: left;
+}
+
+.Sportcommentaar {
+    border: outset;
+    border-width: 5px;
+    border-color: #91d0dd;
+    width: 15em;
+    height: 15em;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+    margin-right: 1em;
+    margin-top: 0.5em;
+    float: left;
+}
+
+.Verliefd {
+    border: outset;
+    border-width: 0.31em;
+    border-color: #91d0dd;
+    width: 15em;
+    height: 15em;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+    margin-top: 0.5em;
+    margin-right: 1em;
+    float: left;
+}
+
+
+/* Section 2 */
+
+.section2 {
+    margin-top: 20em;
+}
+
+.Nicodijkshoorn {
+    border: outset;
+    border-width: 0.31em;
+    border-color: #91d0dd;
+    width: 15em;
+    height: 15em;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+    margin-right: 1em;
+    margin-top: 0.5em;
+    float: left;
+}
+
+.Terugspoelen {
+    border: outset;
+    border-width: 5px;
+    border-color: #91d0dd;
+    width: 15em;
+    height: 15em;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+    margin-right: 1em;
+    margin-top: 0.5em;
+    float: left;
+}
+
+.Vanvader {
+    border: outset;
+    border-width: 5px;
+    border-color: #91d0dd;
+    width: 15em;
+    height: 15em;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+    margin-top: 0.5em;
+    margin-right: 1em;
+    float: left;
+}
+
+
+/* section 3 */
+
+
+/* hartje stijlen */
+
+#favorieten {
+    width: 1.5em;
+    height: 1.5em;
+    margin-left: 13em;
+    margin-top: 1em;
+    margin-bottom: 0;
+    display: block;
+}
+
+.favorieten {
+    width: 1.5em;
+    height: 1.5em;
+    margin-left: 13em;
+    margin-top: 1em;
+    display: inline;
+}
+
+
+/* linkje formulier stijlen */
+
+.account:link {
+    color: darkgrey;
+}
+
+.account:visited {
+    color: purple;
+}
+
+
+/*filter functie */
+
+.filter {
+    width: 6.25em;
+    height: 31.25em;
+    position: fixed;
+    z-index: 1;
+    top: 1.25em;
+    left: 0.62em;
+    background: #eee;
+    overflow-x: hidden;
+    padding: 5em o;
+    font-family: arial;
+    font-size: 1em;
+    line-height: 1.5em;
+    margin-top: 5.3em;
+    text-decoration: none;
+}
+
+
+/* Checkboxes stylen
+bron https://jsfiddle.net/uynwauh9/embedded/result,js,html,css/dark/*/
+
+input[type=checkbox] {
+    position: relative;
+    cursor: pointer;
+    box-sizing: border-box display: inline;
+    top: 0;
+    margin-left: 1.25em;
+    margin-top: 0.5em;
+    padding: 0;
+    width: 0.93em;
+    height: 0.93em;
+    border: none;
+    border-radius: 0;
+    background: transparent;
+    -moz-appearance: checkbox;
+    -webkit-appearance: checkbox
+}
+
+input[type=checkbox]:focus {
+    border: 1px solid #191F3A
+    /* achterkleur van checkbox */
+}
+
+input[type=checkbox]:before {
+    -webkit-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+    content: "";
+    position: absolute;
+    top: -1px;
+    left: -1px;
+    z-index: 1;
+    width: 1em;
+    height: 1em;
+    border: 2px solid #FFFFFF;
+    box-sizing: border-box
+    /* randjes van checkbox */
+}
+
+input[type=checkbox]:checked:before {
+    -ms-transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+    height: 0.56em;
+    border-color: #F8E71C;
+    border-top-style: none;
+    border-right-style: none
+    /* Vinkjes bijven kleur na selectie en ergens anders focus en animatie draai*/
+}
+
+input[type=checkbox]:focus:before {
+    border-color: #F8E71C;
+    /* Vinkjes */
+}
+
+input[type=checkbox]:after {
+    content: "";
+    position: absolute;
+    top: -0.25em;
+    left: -0.25em;
+    width: 1.5em;
+    height: 1.5em;
+    background: #191F3A;
+    cursor: pointer;
+    box-sizing: border-box
+    /* na klik weer terug*/
+}
+
+
+/* The side navigation menu */
+
+.sidenav {
+    height: 100%;
+    /* 100% Full-height */
+    width: 0;
+    /* 0 width - change this with JavaScript */
+    position: fixed;
+    /* Stay in place */
+    z-index: 1;
+    /* Stay on top */
+    top: 6em;
+    /* Stay at the top */
+    background-color: #91d0dd;
+    /* Black*/
+    overflow-x: hidden;
+    /* Disable horizontal scroll */
+    padding-top: 0em;
+    /* Place content 60px from the top */
+    transition: 0.5s;
+    /* 0.5 second transition effect to slide in the sidenav */
+}
+
+
+/* The navigation menu links */
+
+.sidenav a {
+    padding top: 4em;
+    padding-left: 3em;
+    padding-right: 0;
+    padding-bottom: 0;
+    text-decoration: none;
+    font-size: 1.56em;
+    color: darkgray;
+    display: block;
+    transition: 0.3s;
+}
+
+
+/* When you mouse over the navigation links, change their color */
+
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+
+
+/* stijlen van de button filter en de filter zelf */
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 1.56em;
+    font-size: 2.25em;
+}
+
+.filtericon {
+    width: 2em;
+    height: 2em;
+    margin-left: 1em;
+    margin-top: 1em;
+    padding: 0;
+    display: inline;
+}
+
+.sidefilter {
+    color: white;
+    text-align: left;
+    font-family: arial;
+    font-size: 1.1em;
+    margin-top: 3em;
+}
+
+.sideMenu a {
+    display: none;
+}
+
+.menuicon {
+    display: none;
+}
+
+@media only screen and (max-width: 750px) {
+    input[type=search] {
+        display: none;
+    }
+    nav li {
+        display: none;
+    }
+    .sideMenu {
+        height: 100%;
+        width: 0;
+        position: fixed;
+        z-index: 1;
+        top: 0;
+        right: 0.31em;
+        background-color: #191F3A;
+        overflow-x: hidden;
+        -webkit-transition: 0.5s;
+        transition: 0.5s;
+        padding-top: 3.75em;
+        text-align: center;
+    }
+    .sideMenu a {
+        padding: 0.5em 0.5em 0.5em 2em;
+        text-decoration: none;
+        font-size: 1.56em;
+        color: #fff;
+        display: block;
+        -webkit-transition: 0.3s;
+        -webkit-transition: 0.3s;
+        transition: 0.3s;
+        font-family: arial;
+    }
+    .sideMenu a:hover {
+        color: #fada35;
+    }
+    .sideMenu .closebtn2 {
+        position: absolute;
+        top: 0;
+        right: 1.56em;
+        font-size: 2.25em;
+    }
+    #mySideMenu {
+        float: right;
+    }
+    .menuicon {
+        width: 2em;
+        height: 2em;
+        display: inline-block;
+        margin-top: 1em;
+        float: right;
+        margin-right: 1em;
+    }
+    .persoonlijkeinformatie {
+        padding-right: 5em;
+        padding-left: 5em;
+        text-align: center;
+    }
+    .contactgegevens {
+        padding-left: 5em;
+        padding-right: 5em;
+        padding-top: 2em;
+        text-align: center;
+    }
+    h2 {
+        margin-left: 1em;
+        margin-right: 1em;
+    }
+    form.persoonlijkeinformatie {
+        margin: 0em;
+        padding: 0em;
+    }
+    form.contactgegevens {
+        margin: 0em;
+        padding: 0em;
+    }
+    fieldset {
+        margin: 0;
+        text-align: left;
+    }
+    fieldset label {
+        margin-left: 0.5em;
+    }
+}
+
+@media only screen and (max-width: 450px) {
+    .achtergrond2 {
+        border-radius: 0;
+        height: 60%;
+        width: 100%;
+    }
+    .achtergrond3 {
+        border-radius: 0;
+        height: 30%;
+        width: 100%
+    }
+}
