@@ -5,7 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Document</title>
-    <link rel="stylesheet" type="text/css" href="verhaal2.css">
+    <link rel="stylesheet" type="text/css" href="css/verhaal2.css">
+    <link rel="stylesheet" type="text/css" href="css/web.css">
 </head>
 
 <body>
@@ -19,7 +20,7 @@
                 <input class="zoeken" type="search" placeholder="Zoeken...">
                 <ul>
                     <li>
-                        <p><a href="">Favorieten</a></p>
+                        <p><a href="favorieten.html">Favorieten</a></p>
                     </li>
                     <li>
                         <p><a href="">Downloads</a></p>
@@ -35,12 +36,12 @@
     <div id="mySidenav" class="sidenav">
         <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
         <form class="sidefilter">
-            <input type="checkbox" name="stars" value="1" /> Agressief
-            <input type="checkbox" name="stars" value="3" checked="checked" /> Humor
-            <input type="checkbox" name="stars" value="5" checked="checked" /> Poezie
-            <input type="checkbox" name="stars" value="1" checked="checked" /> Romans
-            <input type="checkbox" name="stars" value="3" checked="checked" /> Spanning
-            <input type="checkbox" name="stars" value="5" checked="checked" /> Thrillers
+         <input type="checkbox" name="stars" id="Agressief" value="1" checked="checked" /><label for="Agressief">Agressief</label>
+                <input type="checkbox" name="stars" id="Humor" value="3" checked="checked" /><label for="Humor">Humor</label>
+                <input type="checkbox" name="stars" value="5" id="Poezie" checked="checked" /><label for="Poezie">Poezie</label>
+                <input type="checkbox" name="stars" value="1" id="Romans" checked="checked" /><label for="Romans">Romans</label>
+                <input type="checkbox" name="stars" value="3" id="Spanning" checked="checked" /><label for="Spanning">Spanning</label>
+                <input type="checkbox" name="stars" value="5" id="Thrillers" checked="checked" /><label for="Thrillers">Thrillers</label>
         </form>
     </div>
 
@@ -89,7 +90,7 @@
         </form>
     </div>
 
-    <script src="verhaal.js"></script>
+    <script src="js/verhaal.js"></script>
 </body>
 
 </html>
