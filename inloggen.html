@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Document</title>
-    <link rel="stylesheet" type="text/css" href="web.css">
+    <link rel="stylesheet" type="text/css" href="css/web.css">
 </head>
 
 <body>
@@ -19,7 +19,7 @@
                 <input class="zoeken" type="search" placeholder="Zoeken...">
                 <ul>
                     <li>
-                        <p><a href="">Favorieten</a></p>
+                        <p><a href="favorieten.html">Favorieten</a></p>
                     </li>
                     <li>
                         <p><a href="">Downloads</a></p>
@@ -32,24 +32,31 @@
         </div>
     </header>
 
-    <main class="inloggen">
-        <h2>Aanmelden</h2>
-        <form class="persoonlijkeinformatie">
-            <fieldset>
-                <legend>Inloggen op Eurostar</legend>
-                Naam:<br>
-                <input type="text" name="firstname" required="required">
-                <br> Wachtwoord:
-                <br>
-                <input type="password" name="password" required="required">
-                <br>
-                <input class="aanmelden" type="submit" value="Inloggen">
-            </fieldset>
-        </form>
+    <main>
+        <section>
+            <article class="account">
+                <h1>Login</h1>
+            </article>
+        </section>
+        <section class="achtergrond">
+            <article class="achtergrond3">
+                <form class="persoonlijkeinformatie">
+                    <fieldset>
+                        <label for="Naam">Naam</label>
+                        <div class="forumulier"><input type="text" name="firstname" id="Naam" class="Naam" required="required"></div>
+                        <label for="Wachtwoord">Wachtwoord</label>
+                        <div class="forumulier"><input type="password" name="password" class="Wachtwoord" id="Wachtwoord" required="required"></div>
+                        <label for="Inloggen"></label>
+                        <div class="forumulier"><input class="buttonInloggen" type="submit" id="Inloggen" value="Inloggen"></div>
+                        <p><a href="profiel.html" class="alAccount">Nieuw bij Eurostar? <span class="span2">Account aanmaken</span></a></p>
+                    </fieldset>
+                </form>
+            </article>
+        </section>
     </main>
 
 
-    <script src="java.js"></script>
+    <script src="js/java.js"></script>
 </body>
 
 </html>
