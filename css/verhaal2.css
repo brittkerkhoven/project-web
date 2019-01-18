@@ -1,0 +1,580 @@
+/* kleuren geven aan one page */
+
+#pagina1 {
+    height: 62.5em;
+    background-color: pink;
+    margin: 0em;
+    padding-top: 1em;
+}
+
+#pagina2 {
+    height: 62.5em;
+    background-color: skyblue;
+    margin: 0em;
+}
+
+#pagina3 {
+    height: 62.5em;
+    background-color: pink;
+    margin: 0em;
+}
+
+
+/* verhaal stijlen */
+
+
+/*#pagina1 h1 {
+    font-family: cursive;
+    text-align: center;
+    padding-top: 1.5em;
+    color: red;
+    background-image: url(images/zacht.jpg);
+}*/
+
+#clipped-title1 {
+    background: url(images/zacht3.jpg) no-repeat center center;
+    background-size: cover;
+    color: #fff;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+
+#clipped-title1 {
+    font-size: 4em;
+    font-family: cursive;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+#pagina1 p {
+    margin-left: 3em;
+    margin-right: 3em;
+    margin-top: 0;
+    font-family: arial;
+    color: whitesmoke;
+    font-size: 1.5em;
+}
+
+#nav ul {
+    list-style: none;
+}
+
+#pagina2 p {
+    margin-left: 3em;
+    margin-right: 3em;
+    margin-top: 0;
+    padding-top: 4em;
+    font-family: arial;
+    font-size: 1.5em;
+    color: whitesmoke;
+}
+
+#pagina3 p {
+    margin-left: 3em;
+    margin-right: 3em;
+    margin-top: 0;
+    font-family: arial;
+    color: whitesmoke;
+    font-size: 1.5em;
+    padding-top: 2em;
+}
+
+.heerlijke:hover {
+    color: skyblue;
+    font-size: 2em;
+}
+
+.bijzonder:hover {
+    color: pink;
+    font-size: 2em;
+}
+
+
+/* met behulp van w3schools */
+
+.animatie {
+    width: 0em;
+    height: 0em;
+    margin-left: 3em;
+    position: relative;
+    -webkit-animation-name: hartje;
+    /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 5s;
+    /* Safari 4.0 - 8.0 */
+    -webkit-animation-name: hartje;
+    animation-name: hartje;
+    animation-duration: 5s;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+    -webkit-animation-delay: 2s;
+    animation-delay: 2s;
+}
+
+
+/* de div laten bewegen */
+
+@-webkit-keyframes hartje {
+    0% {
+        left: 0em;
+        top: 0em;
+    }
+    25% {
+        left: 16em;
+        top: 0m;
+    }
+    50% {
+        left: 35em;
+        top: 0em;
+    }
+    75% {
+        left: 35em;
+        top: 9em;
+    }
+    85% {
+        left: 0em;
+        top: 9em;
+    }
+    100% {
+        left: 0em;
+        top: 0em;
+    }
+}
+
+
+/* navigatie bar */
+
+header {
+    background-color: #191F3A;
+    font-family: arial;
+    overflow: hidden;
+    height: 6em;
+}
+
+.zoeken {
+    float: right;
+}
+
+nav a {
+    float: right;
+    color: white;
+    padding-left: 1em;
+    padding-top: 1.5em;
+    padding-right: 1em;
+}
+
+nav input {
+    margin-top: 1.5em;
+    margin-left: 1em;
+    margin-right: 0.5em;
+}
+
+nav ul {
+    padding: 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: block;
+    margin-top: 3em;
+    list-style: none;
+    text-align: center;
+    border: 1px solid;
+    background-color: #31415F;
+}
+
+nav ul a {
+    color: white;
+    display: block;
+    float: left;
+    text-align: center;
+    padding: 0.5em;
+    font-size: 1em;
+    text-decoration: none;
+}
+
+header img {
+    display: inline-block;
+    float: left;
+}
+
+nav button {
+    float: right;
+}
+
+li a:hover {
+    background-color: yellow;
+    color: black;
+}
+
+input[type=search] {
+    margin-top: 2.3em;
+}
+
+button:hover {
+    color: white;
+    background-color: gray;
+    font-size: 1em;
+    border-radius: 0.5em;
+}
+
+head {
+    background-color: #191F3A;
+}
+
+.hamburger {
+    display: none;
+}
+
+.filtericon {
+    float: left;
+    display: inline;
+    width: 2em;
+    height: 2em;
+    margin-left: 1em;
+    margin-top: 1em;
+}
+
+
+/* Checkboxes stylen
+bron https://jsfiddle.net/uynwauh9/embedded/result,js,html,css/dark/*/
+
+input[type=checkbox] {
+    position: relative;
+    cursor: pointer;
+    box-sizing: border-box display: inline;
+    top: 0;
+    margin-left: 1.25em;
+    margin-top: 0.5em;
+    padding: 0;
+    width: 0.93em;
+    height: 0.93em;
+    border: none;
+    border-radius: 0;
+    background: transparent;
+    -moz-appearance: checkbox;
+    -webkit-appearance: checkbox
+}
+
+input[type=checkbox]:focus {
+    border: 1px solid #191F3A
+    /* achterkleur van checkbox */
+}
+
+input[type=checkbox]:before {
+    -webkit-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+    content: "";
+    position: absolute;
+    top: -1px;
+    left: -1px;
+    z-index: 1;
+    width: 1em;
+    height: 1em;
+    border: 2px solid #FFFFFF;
+    box-sizing: border-box
+    /* randjes van checkbox */
+}
+
+input[type=checkbox]:checked:before {
+    -ms-transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+    height: 0.56em;
+    border-color: #F8E71C;
+    border-top-style: none;
+    border-right-style: none
+    /* Vinkjes bijven kleur na selectie en ergens anders focus en animatie draai*/
+}
+
+input[type=checkbox]:focus:before {
+    border-color: #F8E71C;
+    /* Vinkjes */
+}
+
+input[type=checkbox]:after {
+    content: "";
+    position: absolute;
+    top: -0.25em;
+    left: -0.25em;
+    width: 1.5em;
+    height: 1.5em;
+    background: #191F3A;
+    cursor: pointer;
+    box-sizing: border-box
+    /* na klik weer terug*/
+}
+
+
+/* filter en menu */
+
+.sidenav {
+    height: 100%;
+    /* 100% Full-height */
+    width: 0;
+    /* 0 width - change this with JavaScript */
+    position: fixed;
+    /* Stay in place */
+    z-index: 1;
+    /* Stay on top */
+    top: 6em;
+    /* Stay at the top */
+    background-color: #91d0dd;
+    /* Black*/
+    overflow-x: hidden;
+    /* Disable horizontal scroll */
+    padding-top: 0em;
+    /* Place content 60px from the top */
+    transition: 0.5s;
+    /* 0.5 second transition effect to slide in the sidenav */
+}
+
+
+/* The navigation menu links */
+
+.sidenav a {
+    padding top: 4em;
+    padding-left: 3em;
+    padding-right: 0;
+    padding-bottom: 0;
+    text-decoration: none;
+    font-size: 1.56em;
+    color: darkgray;
+    display: block;
+    transition: 0.3s;
+}
+
+
+/* When you mouse over the navigation links, change their color */
+
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+
+
+/* stijlen van de button filter en de filter zelf */
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 1.56em;
+    font-size: 2.25em;
+}
+
+.filtericon {
+    width: 2em;
+    height: 2em;
+    margin-left: 4em;
+    margin-top: 1em;
+    padding: 0;
+    display: inline;
+}
+
+.sidefilter {
+    color: white;
+    text-align: left;
+    font-family: arial;
+    font-size: 1.1em;
+    margin-top: 3em;
+}
+
+.sideMenu a {
+    display: none;
+}
+
+.menuicon {
+    display: none;
+}
+
+
+/* reageren op verhaal */
+
+form {
+    font-family: arial;
+    padding-top: 8em;
+    text-align: center;
+}
+
+input {
+    color: black;
+    font-family: arial;
+    font-size: 1em;
+}
+
+fieldset {
+    border-color: #31415F;
+    color: black;
+    font-family: arial;
+}
+
+input[type=text]:focus {
+    outline: none;
+    border: 0.19em solid green;
+}
+
+textarea {
+    background-color: #f8f8f8;
+    width: 25%;
+    height: 10em;
+    margin-top: 1em;
+    border-radius: 0.25em;
+    border: 0.12em solid #ccc;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    outline: none;
+}
+
+input[type=submit] {
+    background-color: #31415F;
+    border: none;
+    color: white;
+    padding: 0.5em 1em;
+    text-decoration: none;
+    margin: 0.5em 0.2em;
+    cursor: pointer
+}
+
+form {
+    line-height: 1.5;
+}
+
+form a {
+    color: darkgrey;
+    font-family: arial;
+    text-decoration: none;
+    padding-top: 4em;
+}
+
+body {
+    margin: 0em;
+}
+
+.menuicon {
+    display: none;
+}
+
+
+/* responsive maken */
+
+@media only screen and (max-width: 800px) {
+    .zoeken {
+        display: none;
+    }
+    nav ul {
+        display: none;
+    }
+    #clipped-title1 {
+        font-size: 3em
+    }
+    .sideMenu {
+        height: 100%;
+        width: 0;
+        position: fixed;
+        z-index: 1;
+        top: 0;
+        right: 0.31em;
+        background-color: #191F3A;
+        overflow-x: hidden;
+        -webkit-transition: 0.5s;
+        transition: 0.5s;
+        padding-top: 3.75em;
+        text-align: center;
+    }
+    .sideMenu a {
+        padding: 0.5em 0.5em 0.5em 2em;
+        text-decoration: none;
+        font-size: 1.56em;
+        color: #fff;
+        display: block;
+        -webkit-transition: 0.3s;
+        -webkit-transition: 0.3s;
+        transition: 0.3s;
+        font-family: arial;
+    }
+    .sideMenu a:hover {
+        color: #fada35;
+    }
+    .sideMenu .closebtn2 {
+        position: absolute;
+        top: 0;
+        right: 1.56em;
+        font-size: 2.25em;
+    }
+    #mySideMenu {
+        float: right;
+    }
+    .menuicon {
+        width: 2em;
+        height: 2em;
+        display: inline;
+        margin-top: 1em;
+        float: right;
+        margin-right: 1em;
+        margin-bottom: 0;
+    }
+    .filtericon {
+        display: inline;
+        margin-top: 1em;
+        margin-left: 1em;
+        margin-bottom: 0;
+    }
+    #pagina1 {
+        margin: 0;
+    }
+    #pagina1 p {
+        text-align: center;
+        font-size: 1em;
+        margin-top: 0;
+    }
+    #pagina2 p {
+        text-align: center;
+        font-size: 1em;
+    }
+    #pagina3 p {
+        text-align: center;
+        font-size: 1em;
+        padding-top: 4em;
+    }
+    .heerlijke:hover {
+        color: skyblue;
+        font-size: 1.5em;
+    }
+    .bijzonder:hover {
+        color: pink;
+        font-size: 1.5em;
+    }
+    @-webkit-keyframes hartje {
+        0% {
+            left: 0em;
+            top: 0em;
+        }
+        25% {
+            left: 7em;
+            top: 0m;
+        }
+        50% {
+            left: 14em;
+            top: 0em;
+        }
+        75% {
+            left: 14em;
+            top: 2em;
+        }
+        85% {
+            left: 0em;
+            top: 2em;
+        }
+        100% {
+            left: 0em;
+            top: 0em;
+        }
+    }
+}
+
+h4 {
+    margin-top: 10em
+}
