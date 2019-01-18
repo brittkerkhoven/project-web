@@ -150,6 +150,18 @@ form {
     width: 25em;
 }
 
+.Terug {
+    width: 7em;
+    height: 2.5em;
+    display: flex;
+    background-color: #fbdd0f;
+    box-shadow: #55565a;
+    color: #55565a;
+    text-transform: uppercase;
+    border-radius: 0.4em;
+    margin: 1em 0em 0em 1em;
+}
+
 input {
     color: #55565a;
     font-family: arial;
