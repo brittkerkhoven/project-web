@@ -148,13 +148,14 @@ form {
     height: 2.5em;
     display: flex;
     text-align: center;
-    padding-left: 1.5em;
+    padding-left: 1.6em;
     background-color: #fbdd0f;
     box-shadow: #55565a;
     color: #55565a;
     text-transform: uppercase;
     border-radius: 0.4em;
     margin: 1em 0em 0em 1em;
+    border-style: none;
 }
 
 input {
@@ -254,6 +255,7 @@ input[type=submit] {
     color: #55565a;
     text-transform: uppercase;
     border-radius: 0.25em;
+    border-right-style: none;
     text-align: center;
     padding: 0.5em 1em;
     margin: 0.5em 0.2em;
