@@ -147,6 +147,8 @@ form {
     width: 7em;
     height: 2.5em;
     display: flex;
+    text-align: center;
+    padding-left: 1.5em;
     background-color: #fbdd0f;
     box-shadow: #55565a;
     color: #55565a;
