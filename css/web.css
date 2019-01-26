@@ -3,7 +3,6 @@ body {
 }
 
 
-
 /* Navigatie bar */
 
 header {
@@ -70,13 +69,19 @@ nav button {
 }
 
 li:hover {
+    border-top: 0.1em solid #fada35;
+}
+
+
+/*
+li:hover {
     background-color: #fada35;
 }
 
-li a:hover {
-    background-color: #31415F ;
-}
 
+li a:hover {
+    background-color: #31415F;
+}*/
 
 input[type=search] {
     margin-top: 2.3em;
@@ -88,8 +93,8 @@ input[type=search] {
 
 .filtericon {
     display: inline;
-   
 }
+
 
 /* foto banner */
 
@@ -111,7 +116,6 @@ input[type=search] {
     font-size: 2em;
     margin-left: 1em;
     margin-top: 0.5em;
-    
 }
 
 
@@ -130,7 +134,6 @@ h1 {
     padding-top: 0.5em;
     padding-bottom: 0.5em;
 }
-
 
 h3 {
     font-family: arial
@@ -206,6 +209,7 @@ input {
     color: #55565a;
     font-family: arial;
     font-size: 1em;
+    padding-left: 1.5em;
     width: 20em;
     height: 2em;
     border-radius: 0.25em;
@@ -309,6 +313,27 @@ input[type=submit] {
     margin-left: 2.8em;
 }
 
+input[type=text]:valid {
+    background: url(../images/checked.png);
+    background-size: 1em;
+    background-repeat: no-repeat;
+    background-position: 0.2em 0.5em;
+}
+
+input[type=password]:valid {
+    background: url(../images/checked.png);
+    background-size: 1em;
+    background-repeat: no-repeat;
+    background-position: 0.2em 0.5em;
+}
+
+input[type=email]:valid {
+    background: url(../images/checked.png);
+    background-size: 1em;
+    background-repeat: no-repeat;
+    background-position: 0.2em 0.5em;
+}
+
 form {
     line-height: 1.5;
 }
@@ -329,13 +354,13 @@ span.span2 {
     margin-left: 6.3em;
 }
 
+
 /* section 1 */
 
 hr {
     width: 10em;
     border: 0.1em solid rgb(36, 181, 201);
 }
-
 
 .Deel1 {
     width: 100%;
@@ -344,9 +369,8 @@ hr {
     flex-wrap: wrap;
     justify-content: center;
     margin-top: 0em;
-    margin-bottom: 1em;
+    margin-bottom: 3em;
     padding-top: 0em;
-    
 }
 
 h2 {
@@ -354,12 +378,12 @@ h2 {
     letter-spacing: 0.05em;
     text-transform: uppercase;
     text-align: center;
+    padding-bottom: 0;
     margin-bottom: 0em;
     margin-top: 1em;
     color: rgb(85, 86, 90);
-    
+    width: 100%;
 }
-
 
 .Verliefd {
     background-color: white;
@@ -369,11 +393,10 @@ h2 {
     margin-bottom: 1em;
     margin-top: 4.5em;
     margin-left: 1em;
-    box-shadow: 3px 1px 4px 2px #d3d3d3; 
-        
+    box-shadow: 3px 1px 4px 2px #d3d3d3;
 }
 
-.foto1{
+.foto1 {
     width: 20em;
     height: 15em;
     border-top-left-radius: 0.5em;
@@ -401,8 +424,7 @@ h2 {
     background-color: #fada35;
     color: rgb(85, 86, 90);
     border: 0;
-    box-shadow: rgb(222, 194, 4) 0px 2px 0px 0px, 
-    rgba(0, 0, 0, 0.2) 0px 3px 2px 0px;
+    box-shadow: rgb(222, 194, 4) 0px 2px 0px 0px, rgba(0, 0, 0, 0.2) 0px 3px 2px 0px;
     cursor: pointer;
     height: 40px;
     width: 300px;
@@ -418,7 +440,7 @@ h2 {
 }
 
 .hetGebrek {
-   background-color: white;
+    background-color: white;
     width: 20em;
     height: 25em;
     border-radius: 0.5em;
@@ -428,7 +450,7 @@ h2 {
     box-shadow: 3px 1px 4px 2px #d3d3d3;
 }
 
-.foto2{
+.foto2 {
     width: 20em;
     height: 15em;
     border-top-left-radius: 0.5em;
@@ -449,7 +471,7 @@ h2 {
 }
 
 .Sportcommentaar {
-   background-color: white;
+    background-color: white;
     width: 20em;
     height: 25em;
     border-radius: 0.5em;
@@ -459,7 +481,7 @@ h2 {
     box-shadow: 3px 1px 4px 2px #d3d3d3;
 }
 
-.foto3{
+.foto3 {
     width: 20em;
     height: 15em;
     border-top-left-radius: 0.5em;
@@ -481,6 +503,7 @@ h2 {
 
 
 /* Section 2 */
+
 .Deel2 {
     width: 100%;
     display: flex;
@@ -491,7 +514,6 @@ h2 {
     padding-top: 0em;
 }
 
-
 .Nicodijkshoorn {
     background-color: white;
     width: 20em;
@@ -501,11 +523,10 @@ h2 {
     margin-bottom: 1em;
     margin-top: 4.5em;
     justify-content: center;
-    box-shadow: 3px 1px 4px 2px #d3d3d3; 
-        
+    box-shadow: 3px 1px 4px 2px #d3d3d3;
 }
 
-.foto4{
+.foto4 {
     width: 20em;
     height: 15em;
     border-top-left-radius: 0.5em;
@@ -525,7 +546,7 @@ h2 {
     color: rgb(74, 73, 73);
 }
 
-.Terugspoelen{
+.Terugspoelen {
     background-color: white;
     width: 20em;
     height: 25em;
@@ -535,10 +556,9 @@ h2 {
     margin-top: 4.5em;
     justify-content: center;
     box-shadow: 3px 1px 4px 2px #d3d3d3;
-        
 }
 
-.foto5{
+.foto5 {
     width: 20em;
     height: 15em;
     border-top-left-radius: 0.5em;
@@ -558,7 +578,7 @@ h2 {
     color: rgb(74, 73, 73);
 }
 
-.Vanvader{
+.Vanvader {
     background-color: white;
     width: 20em;
     height: 25em;
@@ -567,11 +587,10 @@ h2 {
     margin-bottom: 1em;
     margin-top: 4.5em;
     justify-content: center;
-    box-shadow: 3px 1px 4px 2px #d3d3d3; 
-        
+    box-shadow: 3px 1px 4px 2px #d3d3d3;
 }
 
-.foto6{
+.foto6 {
     width: 20em;
     height: 15em;
     border-top-left-radius: 0.5em;
@@ -591,6 +610,7 @@ h2 {
     color: rgb(74, 73, 73);
 }
 
+
 /* sectie 3 */
 
 .Deel3 {
@@ -601,7 +621,7 @@ h2 {
     justify-content: center;
 }
 
-.fotos{
+.fotos {
     position: relative;
     width: 25em;
     height: 14em;
@@ -631,14 +651,12 @@ h2 {
     padding-top: 3em;
     color: rgb(85, 86, 90);
     font-weight: 550;
-
 }
 
 hr.bruin {
     width: 10em;
     border: 0.1em solid rgb(85, 86, 90);
 }
-
 
 .text-block2 {
     position: absolute;
@@ -693,8 +711,6 @@ hr.blauw {
 .Deel3 .img:hover {
     background-color: black;
 }
-
-
 
 
 /* hartje stijlen */
@@ -985,7 +1001,7 @@ input[type=checkbox]:after {
     .Deel3 {
         margin-left: -0.5em;
     }
-    .fotos{
+    .fotos {
         margin-bottom: 1em;
         margin-top: 1em;
     }
