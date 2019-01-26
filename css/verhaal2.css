@@ -41,6 +41,7 @@
 #pagina3 {
     width: 100%;
     height: 49.5em;
+    margin: 0em;
     background: url(../images/wolken2.jpg);
     background-position: 0px 0px;
     background-repeat: repeat-x;
@@ -54,8 +55,43 @@
 h1.Titel {
     display: block;
     margin: 0em;
-    padding: 5em;
+    padding-top: 2.5em;
+    padding-left: auto;
+    padding-right: auto;
     font-size: 3em;
+    letter-spacing: 0.15em;
+    -webkit-filter: blur(1px);
+    filter: blur(1px);
+    color: #7c818d;
+}
+
+
+/* verhaal stijlen */
+
+#pagina1 p {
+    color: #ac9688;
+    font-size: 1.2em;
+    font-family: cursive;
+    letter-spacing: 0.05em;
+    -webkit-filter: blur(0.2px);
+    filter: blur(0.2px);
+    margin-left: 1em;
+    margin-top: 1em;
+}
+
+#pagina1 .wazig {
+    -webkit-filter: blur(0.9px);
+    filter: blur(0.9px);
+}
+
+#pagina1 .deel2 p {
+    padding-top: 4.5em;
+    margin-left: 10em;
+}
+
+#pagina1 .deel3 p {
+    padding-top: 4.5em;
+    padding-left: 15em;
 }
 
 
