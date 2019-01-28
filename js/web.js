@@ -26,25 +26,6 @@ function closeNav2() {
 
 /*animatie hartjes */
 
-
-var hartjestatus = 'leeg';
-var hartjeLeeg = document.querySelector('#favorieten');
-var hartjeVol = document.querySelector('#favorieten');
-
-function hartjevullen() {
-    if (hartjestatus == 'leeg') {
-        hartjeLeeg.src = 'images/hartjevol.png';
-        hartjestatus = 'vol';
-        return hartjestatus;
-    } else {
-        hartjeLeeg.src = 'images/hartjeleeg.png';
-        hartjestatus = 'leeg';
-    }
-}
-
-hartjeLeeg.addEventListener('click', hartjevullen);
-
-
 var hartjesstatus = 'leeg';
 var hartjesLeeg = document.querySelector('.favorieten');
 var hartjesVol = document.querySelector('.favorieten');
@@ -63,3 +44,7 @@ function hartjesvullen() {
 }
 hartjesLeeg.addEventListener('click', hartjesvullen);
 hartjesVol.addEventListener('click', hartjesLeeg);
+
+
+/* navigatie links */
+var filterKnop = document.querySelector('#filterIcon');
