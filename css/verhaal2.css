@@ -1,5 +1,17 @@
 /* Achtergrond wolken bewegen */
 
+main {
+    background: url(../images/wolken3.jpg);
+    background-position: 0px 0px;
+    -webkit-animation: animatedBackground 30s linear infinite;
+    animation: animatedBackground 30s linear infinite;
+    background-attachment: fixed;
+}
+
+img.filtericon {
+    display: none;
+}
+
 @-webkit-keyframes animatedBackground {
     from {
         background-position: 0 0;
@@ -21,32 +33,17 @@
 #pagina1 {
     width: 100%;
     height: 49.5em;
-    background: url(../images/wolken2.jpg);
-    background-position: 0px 0px;
-    background-repeat: repeat-x;
-    -webkit-animation: animatedBackground 30s linear infinite;
-    animation: animatedBackground 30s linear infinite;
 }
 
 #pagina2 {
     width: 100%;
     height: 49.5em;
-    background: url(../images/wolken2.jpg);
-    background-position: 0px 0px;
-    background-repeat: repeat-x;
-    -webkit-animation: animatedBackground 30s linear infinite;
-    animation: animatedBackground 30s linear infinite;
 }
 
 #pagina3 {
     width: 100%;
     height: 49.5em;
     margin: 0em;
-    background: url(../images/wolken2.jpg);
-    background-position: 0px 0px;
-    background-repeat: repeat-x;
-    -webkit-animation: animatedBackground 30s linear infinite;
-    animation: animatedBackground 30s linear infinite;
 }
 
 
@@ -54,11 +51,14 @@
 
 h1.Titel {
     display: block;
+    font-family: tamarillo-jf, sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    font-size: 4em;
     margin: 0em;
-    padding-top: 2.5em;
+    padding-top: 1em;
     padding-left: auto;
     padding-right: auto;
-    font-size: 3em;
     letter-spacing: 0.15em;
     -webkit-filter: blur(1px);
     filter: blur(1px);
@@ -68,10 +68,13 @@ h1.Titel {
 
 /* verhaal stijlen */
 
+
+/* pagina 1 */
+
 #pagina1 p {
     color: #ac9688;
     font-size: 1.2em;
-    font-family: cursive;
+    font-family: tornac, sans-serif;
     letter-spacing: 0.05em;
     -webkit-filter: blur(0.2px);
     filter: blur(0.2px);
@@ -91,119 +94,290 @@ h1.Titel {
 
 #pagina1 .deel3 p {
     padding-top: 4.5em;
+    margin-left: 12em;
+}
+
+
+/* pagina 2 */
+
+#pagina2 p {
+    color: #ac9688;
+    font-size: 1.2em;
+    font-family: tornac, sans-serif;
+    ;
+    letter-spacing: 0.05em;
+    -webkit-filter: blur(0.2px);
+    filter: blur(0.2px);
+    margin-left: 1em;
+    margin-top: 1em;
+}
+
+#pagina2 .wazig {
+    -webkit-filter: blur(0.9px);
+    filter: blur(0.9px);
+}
+
+#pagina2 .deel2 p {
+    padding-top: 4.5em;
+    margin-left: 10em;
+}
+
+#pagina2 .deel3 p {
+    padding-top: 4.5em;
     padding-left: 15em;
 }
 
 
-/* met behulp van w3schools */
+/* pagina */
 
+#pagina3 p {
+    color: #ac9688;
+    font-size: 1.2em;
+    font-family: tornac, sans-serif;
+    ;
+    letter-spacing: 0.05em;
+    -webkit-filter: blur(0.2px);
+    filter: blur(0.2px);
+    margin-left: 1em;
+    margin-top: 1em;
+}
 
-/*
-.animatie {
-    width: 0em;
-    height: 0em;
-    margin-left: 3em;
-    position: relative;
-    -webkit-animation-name: hartje;
-    /* Safari 4.0 - 8.0
-    -webkit-animation-duration: 5s;
-    /* Safari 4.0 - 8.0
-    -webkit-animation-name: hartje;
-    animation-name: hartje;
-    animation-duration: 5s;
-    -webkit-animation-iteration-count: infinite;
-    animation-iteration-count: infinite;
-    -webkit-animation-delay: 2s;
-    animation-delay: 2s;
+#pagina3 .wazig {
+    -webkit-filter: blur(0.9px);
+    filter: blur(0.9px);
+}
+
+#pagina3 .deel1 p {
+    margin-right: 1em;
+}
+
+#pagina3 .deel2 p {
+    padding-top: 4.5em;
+    margin-left: 10em;
+}
+
+#pagina3 .deel3 p {
+    padding-top: 4.5em;
+    padding-left: 15em;
 }
 
 
-/* de div laten bewegen */
+/* pagina 4 */
 
+#pagina4 p {
+    color: #ac9688;
+    font-size: 1.2em;
+    font-family: tornac, sans-serif;
+    ;
+    letter-spacing: 0.05em;
+    -webkit-filter: blur(0.2px);
+    filter: blur(0.2px);
+    margin-left: 1em;
+    margin-top: 1em;
+}
 
-/*
-@-webkit-keyframes hartje {
-    0% {
-        left: 0em;
-        top: 0em;
-    }
-    25% {
-        left: 16em;
-        top: 0m;
-    }
-    50% {
-        left: 35em;
-        top: 0em;
-    }
-    75% {
-        left: 35em;
-        top: 9em;
-    }
-    85% {
-        left: 0em;
-        top: 9em;
-    }
-    100% {
-        left: 0em;
-        top: 0em;
-    }
+#pagina4 .wazig {
+    -webkit-filter: blur(0.9px);
+    filter: blur(0.9px);
+}
+
+#pagina4 .deel2 p {
+    padding-top: 4.5em;
+    margin-left: 10em;
+    margin-right: 1em;
+}
+
+#pagina4 .deel3 p {
+    padding-top: 4.5em;
+    padding-left: 15em;
+    margin-bottom: 10em;
 }
 
 
-/* reageren op verhaal */
+/* pagina 5 */
 
-form {
-    font-family: arial;
-    padding-top: 8em;
+#pagina5 p {
+    color: #ac9688;
+    font-size: 1.2em;
+    font-family: tornac, sans-serif;
+    letter-spacing: 0.05em;
+    -webkit-filter: blur(0.2px);
+    filter: blur(0.2px);
+    margin-left: 1em;
+    margin-top: 1em;
+}
+
+#pagina5 .wazig {
+    -webkit-filter: blur(0.9px);
+    filter: blur(0.9px);
+}
+
+#pagina5 .deel2 p {
+    padding-top: 4.5em;
+    margin-left: 10em;
+}
+
+#pagina5 .deel2 p {
+    margin-right: 1em;
+}
+
+#pagina5 .deel3 p {
+    padding-top: 4.5em;
+    padding-left: 15em;
+    margin-right: 1em;
+}
+
+
+/* pagina 6 */
+
+#pagina6 {
+    margin-top: 10em;
+    padding-bottom: 5em;
+}
+
+#pagina6 .reageren h4 {
+    font-family: tornac, sans-serif;
+    font-size: 1.5em;
+    color: grey;
+}
+
+#pagina6 .reageren {
     text-align: center;
 }
 
-input {
-    color: black;
-    font-family: arial;
-    font-size: 1em;
+#pagina6 .reactie {
+    width: 20em;
 }
 
-fieldset {
-    border-color: #31415F;
-    color: black;
-    font-family: arial;
+#pagina6 .plaatsReactie {
+    margin-right: 3em;
+    height: 2.5em;
+    width: 12.5em;
+    -webkit-box-shadow: ;
+    box-shadow:
 }
 
-input[type=text]:focus {
-    outline: none;
-    border: 0.19em solid green;
+#pagina6 .plaatsReactie:hover {
+    color: #fada35;
 }
 
-textarea {
-    background-color: #f8f8f8;
-    width: 25%;
-    height: 10em;
-    margin-top: 1em;
-    border-radius: 0.25em;
-    border: 0.12em solid #ccc;
-    -webkit-box-sizing: border-box;
-    box-sizing: border-box;
-    outline: none;
+@media only screen and (max-width: 750px) {
+    main {
+        -webkit-animation: animatedBackground 50s linear infinite;
+        animation: animatedBackground 50s linear infinite;
+    }
+    img.menuicon {
+        padding-top: 6.5em;
+    }
+    #pagina1 .deel3 p {
+        margin-right: 3em;
+    }
+    #pagina2 .deel1 p {
+        margin-top: 3em;
+        margin-left: 1em;
+        margin-right: 2em;
+    }
+    #pagina2 .deel2 p {
+        margin-right: 0.5em;
+    }
+    #pagina3 .deel1 p {
+        margin-left: 2em;
+        margin-right: 0.5em;
+    }
+    #pagina3 .deel3 p {
+        margin-right: 0.5em;
+    }
+    #pagina4 .deel1 p {
+        margin-left: 0.5em;
+    }
+    #pagina4 .deel3 p {
+        margin-right: 1em;
+    }
+    #pagina5 .deel1 p {
+        margin-top: 9em;
+    }
+    #pagina5 deel2 p {
+        margin-right: 2em;
+    }
+    #pagina5 .deel3 p {
+        padding-bottom: 5em;
+        margin-right: 1em;
+    }
 }
 
-input[type=submit] {
-    background-color: #31415F;
-    border: none;
-    color: white;
-    padding: 0.5em 1em;
-    text-decoration: none;
-    margin: 0.5em 0.2em;
-    cursor: pointer
-}
-
-form {
-    line-height: 1.5;
-}
-
-form a {
-    color: darkgrey;
-    font-family: arial;
-    text-decoration: none;
-    padding-top: 4em;
+@media only screen and (max-width: 450px) {
+    main {
+        -webkit-animation: animatedBackground 90s linear infinite;
+        animation: animatedBackground 90s linear infinite;
+    }
+    img.filtericon {
+        display: none;
+    }
+    #pagina1 p {
+        font-size: 1em;
+    }
+    #pagina1 .deel1 p {
+        margin-left: 1em;
+        margin-right: 1em;
+    }
+    #pagina1 .deel2 p {
+        margin-right: 1em;
+    }
+    #pagina1 .deel3 p {
+        margin-left: 1em;
+        margin-right: 0.5em;
+        margin-bottom: 2em;
+    }
+    #pagina2 p {
+        font-size: 1em;
+    }
+    #pagina2 .deel1 p {
+        margin-top: 8em;
+    }
+    #pagina2 .deel2 p {
+        margin-left: 2.5em;
+    }
+    #pagina2 .deel3 p {
+        margin-right: 1em;
+        margin-left: -2em;
+    }
+    #pagina3 p {
+        font-size: 1em;
+    }
+    #pagina3 .deel1 p {
+        margin-right: 0.5em;
+    }
+    #pagina3 .deel2 p {
+        margin-right: 1em;
+    }
+    #pagina3 .deel3 p {
+        margin-right: 1em;
+        margin-left: -2em;
+    }
+    #pagina4 p {
+        font-size: 1em;
+    }
+    #pagina4 .deel1 p {
+        margin-left: 1em;
+    }
+    #pagina4 .deel2 p {
+        margin-right: 0.5em;
+        margin-left: 6em;
+    }
+    #pagina4 .deel3 p {
+        margin-right: 1em;
+        margin-left: -2.5em;
+    }
+    #pagina5 p {
+        font-size: 1em;
+    }
+    #pagina5 .deel1 p {
+        margin-right: 1em;
+    }
+    #pagina5 .deel2 p {
+        margin-left: 3em;
+    }
+    #pagina5 .deel3 p {
+        margin-left: -4em;
+    }
 }
