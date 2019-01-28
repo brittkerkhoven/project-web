@@ -72,6 +72,10 @@ li:hover {
     border-top: 0.1em solid #fada35;
 }
 
+nav li:hover {
+    opacity: 0.7;
+}
+
 
 /*
 li:hover {
@@ -89,10 +93,6 @@ input[type=search] {
 
 .menu {
     display: none;
-}
-
-.filtericon {
-    display: inline;
 }
 
 
@@ -192,17 +192,22 @@ form {
 .Terug {
     width: 7em;
     height: 2.5em;
-    display: flex;
+    display: inline;
     text-align: center;
-    padding-left: 1.6em;
+    padding-left: 1em;
     background-color: #fbdd0f;
     box-shadow: #55565a;
     color: #55565a;
     text-transform: uppercase;
+    font-size: 0.7em;
     border-radius: 0.4em;
     margin-left: 1em;
-    margin-top: 0.5em;
+    margin-top: 1em;
     border-style: none;
+}
+
+.Terug:hover {
+    color: #91d0dd;
 }
 
 input {
@@ -220,7 +225,7 @@ fieldset {
     color: #55565a;
     font-family: arial;
     padding-top: 1em;
-    margin-left: 1em;
+    margin-left: 0.25em;
     font-size: 1em
 }
 
@@ -297,20 +302,40 @@ input[type=submit] {
     margin-left: 2.8em;
 }
 
-#Inloggen {
+.aanmaken {
+    background-color: #24b5c9;
+    box-shadow: #1e96a6;
+    border-radius: 0.25em;
+    text-transform: uppercase;
+    text-align: center;
+    color: white;
+    padding: 0.7em 3em;
+    text-decoration: none;
+    cursor: pointer;
+    width: 16em;
+    height: 4em;
+    margin-left: 2.8em;
+}
+
+.Inloggen {
     background-color: #fbdd0f;
+    border: 1px;
     box-shadow: #55565a;
     color: #55565a;
     text-transform: uppercase;
     border-radius: 0.25em;
     border-right-style: none;
     text-align: center;
-    padding: 0.5em 1em;
+    padding: 0.7em 3em;
     margin: 0.5em 0.2em;
     cursor: pointer;
     width: 15em;
     height: 3em;
-    margin-left: 2.8em;
+    margin-left: 5em;
+}
+
+.Inloggen:hover {
+    color: #91d0dd;
 }
 
 input[type=text]:valid {
@@ -368,9 +393,7 @@ hr {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
-    margin-top: 0em;
-    margin-bottom: 3em;
-    padding-top: 0em;
+    margin-bottom: 5em;
 }
 
 h2 {
@@ -378,9 +401,8 @@ h2 {
     letter-spacing: 0.05em;
     text-transform: uppercase;
     text-align: center;
-    padding-bottom: 0;
-    margin-bottom: 0em;
-    margin-top: 1em;
+    margin-top: 2em;
+    margin-bottom: -1em;
     color: rgb(85, 86, 90);
     width: 100%;
 }
@@ -388,7 +410,7 @@ h2 {
 .Verliefd {
     background-color: white;
     width: 20em;
-    height: 25em;
+    height: 28em;
     border-radius: 0.5em;
     margin-bottom: 1em;
     margin-top: 4.5em;
@@ -432,7 +454,7 @@ h2 {
     text-transform: uppercase;
     text-align: center;
     margin-left: 0.5em;
-    margin-top: 0.5em;
+    margin-top: 2em;
 }
 
 .leesverder:hover {
@@ -442,7 +464,7 @@ h2 {
 .hetGebrek {
     background-color: white;
     width: 20em;
-    height: 25em;
+    height: 28em;
     border-radius: 0.5em;
     margin-bottom: 1em;
     margin-top: 4.5em;
@@ -473,7 +495,7 @@ h2 {
 .Sportcommentaar {
     background-color: white;
     width: 20em;
-    height: 25em;
+    height: 28em;
     border-radius: 0.5em;
     margin-bottom: 1em;
     margin-top: 4.5em;
@@ -511,13 +533,14 @@ h2 {
     flex-wrap: wrap;
     justify-content: center;
     margin-top: 0em;
+    margin-bottom: 5em;
     padding-top: 0em;
 }
 
 .Nicodijkshoorn {
     background-color: white;
     width: 20em;
-    height: 25em;
+    height: 28em;
     border-radius: 0.5em;
     margin-left: 1em;
     margin-bottom: 1em;
@@ -538,6 +561,7 @@ h2 {
     color: rgb(74, 73, 73);
     font-size: 0.8em;
     margin-left: 1em;
+    margin-bottom: 0em;
 }
 
 .Nicodijkshoorn h3 {
@@ -549,7 +573,7 @@ h2 {
 .Terugspoelen {
     background-color: white;
     width: 20em;
-    height: 25em;
+    height: 28em;
     border-radius: 0.5em;
     margin-left: 1em;
     margin-bottom: 1em;
@@ -581,7 +605,7 @@ h2 {
 .Vanvader {
     background-color: white;
     width: 20em;
-    height: 25em;
+    height: 28em;
     border-radius: 0.5em;
     margin-left: 1em;
     margin-bottom: 1em;
@@ -619,6 +643,11 @@ h2 {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
+}
+
+.Aparteh2 {
+    margin-bottom: 1em;
+    ;
 }
 
 .fotos {
@@ -708,27 +737,24 @@ hr.blauw {
     height: 14em;
 }
 
-.Deel3 .img:hover {
-    background-color: black;
+.hr2 {
+    width: 100%;
+    margin-left: 40em;
+    margin-right: 40em;
+}
+
+.fotos:hover {
+    opacity: 0.7;
 }
 
 
 /* hartje stijlen */
 
-#favorieten {
-    width: 1.5em;
-    height: 1.5em;
-    margin-left: 13em;
-    margin-top: 1em;
-    margin-bottom: 0;
-    display: block;
-}
-
 .favorieten {
     width: 1.5em;
     height: 1.5em;
-    margin-left: 13em;
-    margin-top: 1em;
+    margin-left: 18em;
+    margin-top: 0.5em;
     display: inline;
 }
 
@@ -879,12 +905,12 @@ input[type=checkbox]:after {
 }
 
 .filtericon {
+    display: inline;
+    float: left;
+    margin-top: -5.5em;
+    margin-left: 0.5em;
     width: 2em;
     height: 2em;
-    margin-left: 1em;
-    margin-top: 0;
-    padding: 0;
-    display: inline-block;
 }
 
 .sidefilter {
@@ -950,10 +976,13 @@ input[type=checkbox]:after {
     img.menuicon {
         width: 2em;
         height: 2em;
-        display: inline-block;
+        display: inline;
         margin-top: -6em;
         float: right;
         margin-right: 1em;
+    }
+    img.filtericon {
+        margin-top: -5.8em;
     }
     .persoonlijkeinformatie {
         padding-right: 5em;
@@ -981,17 +1010,24 @@ input[type=checkbox]:after {
     fieldset label {
         margin-left: 0.5em;
     }
+    .span2 {
+        margin-left: auto;
+        margin-right: auto;
+    }
+    header img {
+        margin-left: 0.5em;
+    }
 }
 
 @media only screen and (max-width: 450px) {
     .achtergrond2 {
         border-radius: 0;
-        height: 60%;
+        height: 70%;
         width: 100%;
     }
     .achtergrond3 {
         border-radius: 0;
-        height: 30%;
+        height: 25%;
         width: 100%
     }
     main img {
@@ -1030,7 +1066,11 @@ input[type=checkbox]:after {
         margin-right: auto;
     }
     img.filtericon {
-        margin-top: -10em;
+        margin-top: -6em;
+        margin-left: 0.5em;
+        display: inline;
+    }
+    header img {
         margin-left: 0.5em;
     }
 }
