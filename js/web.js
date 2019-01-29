@@ -32,7 +32,7 @@ var hartjesVol = document.querySelector('.favorieten');
 
 function hartjesvullen() {
     if (hartjesstatus == 'leeg') {
-        hartjesLeeg.src = 'images/hartjevol.png';
+        hartjesLeeg.src = 'images/hartjevol.gif';
         hartjesstatus = 'vol';
         return hartjesstatus;
     } else {
@@ -46,5 +46,22 @@ hartjesLeeg.addEventListener('click', hartjesvullen);
 hartjesVol.addEventListener('click', hartjesLeeg);
 
 
-/* navigatie links */
-var filterKnop = document.querySelector('#filterIcon');
+
+var downloadenStatus = 'nietActief';
+var deel1 = document.getElementById("Download");
+var deel2 = document.getElementById("Download");
+
+function downloaden() {
+    if (downloadenStatus == 'nietActief') {
+        deel1.src = 'images/downloaden.gif';
+        downloadenStatus = 'actief';
+        return downloadenStatus;
+    } else {
+        deel2.src = 'images/download.png';
+        downloadenStatus = 'nietActief';
+        return downloadenStatus;
+    }
+}
+
+deel1.addEventListener('click', downloaden);
+deel2.addEventListener('click', downloaden);
