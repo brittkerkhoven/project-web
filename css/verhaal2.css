@@ -261,7 +261,7 @@ h1.Titel {
     color: #fada35;
 }
 
-@media only screen and (max-width: 750px) {
+@media only screen and (max-width: 46.87em) {
     main {
         -webkit-animation: animatedBackground 50s linear infinite;
         animation: animatedBackground 50s linear infinite;
@@ -305,7 +305,7 @@ h1.Titel {
     }
 }
 
-@media only screen and (max-width: 450px) {
+@media only screen and (max-width: 28.12em) {
     main {
         -webkit-animation: animatedBackground 90s linear infinite;
         animation: animatedBackground 90s linear infinite;
