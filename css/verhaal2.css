@@ -1,11 +1,12 @@
 /* Achtergrond wolken bewegen */
 
-main {
+body {
     background: url(../images/wolken3.jpg);
     background-position: 0px 0px;
-    -webkit-animation: animatedBackground 30s linear infinite;
-    animation: animatedBackground 30s linear infinite;
+    -webkit-animation: animatedBackground 20s linear infinite;
+    animation: animatedBackground 20s linear infinite;
     background-attachment: fixed;
+    background-size: cover;
 }
 
 img.filtericon {
@@ -30,17 +31,17 @@ img.filtericon {
     }
 }
 
-#pagina1 {
+section div#pagina1 {
     width: 100%;
     height: 49.5em;
 }
 
-#pagina2 {
+section div#pagina2 {
     width: 100%;
     height: 49.5em;
 }
 
-#pagina3 {
+section div#pagina3 {
     width: 100%;
     height: 49.5em;
     margin: 0em;
@@ -49,7 +50,7 @@ img.filtericon {
 
 /* titel verhaal */
 
-h1.Titel {
+section div article h1.Titel {
     display: block;
     font-family: tamarillo-jf, sans-serif;
     font-weight: 800;
@@ -71,7 +72,7 @@ h1.Titel {
 
 /* pagina 1 */
 
-#pagina1 p {
+section div#pagina1 p {
     color: #ac9688;
     font-size: 1.2em;
     font-family: tornac, sans-serif;
@@ -82,17 +83,17 @@ h1.Titel {
     margin-top: 1em;
 }
 
-#pagina1 .wazig {
+section div#pagina1 .wazig {
     -webkit-filter: blur(0.9px);
     filter: blur(0.9px);
 }
 
-#pagina1 .deel2 p {
+section div#pagina1 .deel2 p {
     padding-top: 4.5em;
     margin-left: 10em;
 }
 
-#pagina1 .deel3 p {
+section div#pagina1 .deel3 p {
     padding-top: 4.5em;
     margin-left: 12em;
 }
@@ -100,7 +101,7 @@ h1.Titel {
 
 /* pagina 2 */
 
-#pagina2 p {
+section div#pagina2 p {
     color: #ac9688;
     font-size: 1.2em;
     font-family: tornac, sans-serif;
@@ -112,17 +113,17 @@ h1.Titel {
     margin-top: 1em;
 }
 
-#pagina2 .wazig {
+section div#pagina2 .wazig {
     -webkit-filter: blur(0.9px);
     filter: blur(0.9px);
 }
 
-#pagina2 .deel2 p {
+section div#pagina2 .deel2 p {
     padding-top: 4.5em;
     margin-left: 10em;
 }
 
-#pagina2 .deel3 p {
+section div#pagina2 .deel3 p {
     padding-top: 4.5em;
     padding-left: 15em;
 }
@@ -130,7 +131,7 @@ h1.Titel {
 
 /* pagina */
 
-#pagina3 p {
+section div#pagina3 p {
     color: #ac9688;
     font-size: 1.2em;
     font-family: tornac, sans-serif;
@@ -142,21 +143,21 @@ h1.Titel {
     margin-top: 1em;
 }
 
-#pagina3 .wazig {
+section div#pagina3 .wazig {
     -webkit-filter: blur(0.9px);
     filter: blur(0.9px);
 }
 
-#pagina3 .deel1 p {
+section div#pagina3 .deel1 p {
     margin-right: 1em;
 }
 
-#pagina3 .deel2 p {
+section div#pagina3 .deel2 p {
     padding-top: 4.5em;
     margin-left: 10em;
 }
 
-#pagina3 .deel3 p {
+section div#pagina3 .deel3 p {
     padding-top: 4.5em;
     padding-left: 15em;
 }
@@ -164,7 +165,7 @@ h1.Titel {
 
 /* pagina 4 */
 
-#pagina4 p {
+section div#pagina4 p {
     color: #ac9688;
     font-size: 1.2em;
     font-family: tornac, sans-serif;
@@ -176,18 +177,18 @@ h1.Titel {
     margin-top: 1em;
 }
 
-#pagina4 .wazig {
+section div#pagina4 .wazig {
     -webkit-filter: blur(0.9px);
     filter: blur(0.9px);
 }
 
-#pagina4 .deel2 p {
+section div#pagina4 .deel2 p {
     padding-top: 4.5em;
     margin-left: 10em;
     margin-right: 1em;
 }
 
-#pagina4 .deel3 p {
+section div#pagina4 .deel3 p {
     padding-top: 4.5em;
     padding-left: 15em;
     margin-bottom: 10em;
@@ -196,7 +197,7 @@ h1.Titel {
 
 /* pagina 5 */
 
-#pagina5 p {
+section div#pagina5 p {
     color: #ac9688;
     font-size: 1.2em;
     font-family: tornac, sans-serif;
@@ -207,21 +208,21 @@ h1.Titel {
     margin-top: 1em;
 }
 
-#pagina5 .wazig {
+section div#pagina5 .wazig {
     -webkit-filter: blur(0.9px);
     filter: blur(0.9px);
 }
 
-#pagina5 .deel2 p {
+section div#pagina5 .deel2 p {
     padding-top: 4.5em;
     margin-left: 10em;
 }
 
-#pagina5 .deel2 p {
+section div#pagina5 .deel2 p {
     margin-right: 1em;
 }
 
-#pagina5 .deel3 p {
+section div#pagina5 .deel3 p {
     padding-top: 4.5em;
     padding-left: 15em;
     margin-right: 1em;
@@ -230,26 +231,26 @@ h1.Titel {
 
 /* pagina 6 */
 
-#pagina6 {
+section div#pagina6 {
     margin-top: 10em;
     padding-bottom: 5em;
 }
 
-#pagina6 .reageren h4 {
+section div#pagina6 .reageren h4 {
     font-family: tornac, sans-serif;
     font-size: 1.5em;
     color: grey;
 }
 
-#pagina6 .reageren {
+section div#pagina6 .reageren {
     text-align: center;
 }
 
-#pagina6 .reactie {
+section div#pagina6 .reactie {
     width: 20em;
 }
 
-#pagina6 .plaatsReactie {
+section div#pagina6 .plaatsReactie {
     margin-right: 3em;
     height: 2.5em;
     width: 12.5em;
@@ -257,127 +258,138 @@ h1.Titel {
     box-shadow:
 }
 
-#pagina6 .plaatsReactie:hover {
+section div#pagina6 .plaatsReactie:hover {
     color: #fada35;
 }
 
 @media only screen and (max-width: 46.87em) {
     main {
-        -webkit-animation: animatedBackground 50s linear infinite;
-        animation: animatedBackground 50s linear infinite;
+        -webkit-animation: animatedBackground 70s linear infinite;
+        animation: animatedBackground 70s linear infinite;
+        background-attachment: fixed;
+        background-position: 0px 0px;
     }
-    img.menuicon {
+    aside img.menuicon {
         padding-top: 6.5em;
+        padding-right: 0.5em;
     }
-    #pagina1 .deel3 p {
+    section div#pagina1 .deel3 p {
         margin-right: 3em;
     }
-    #pagina2 .deel1 p {
+    section div#pagina2 .deel1 p {
         margin-top: 3em;
         margin-left: 1em;
         margin-right: 2em;
     }
-    #pagina2 .deel2 p {
+    section div#pagina2 .deel2 p {
         margin-right: 0.5em;
     }
-    #pagina3 .deel1 p {
+    section div#pagina3 .deel1 p {
         margin-left: 2em;
         margin-right: 0.5em;
     }
-    #pagina3 .deel3 p {
+    section div#pagina3 .deel3 p {
         margin-right: 0.5em;
     }
-    #pagina4 .deel1 p {
+    section div#pagina4 .deel1 p {
         margin-left: 0.5em;
     }
-    #pagina4 .deel3 p {
+    section div#pagina4 .deel3 p {
         margin-right: 1em;
     }
-    #pagina5 .deel1 p {
+    section div#pagina5 .deel1 p {
         margin-top: 9em;
     }
-    #pagina5 deel2 p {
+    section div#pagina5 deel2 p {
         margin-right: 2em;
     }
-    #pagina5 .deel3 p {
+    section div#pagina5 .deel3 p {
         padding-bottom: 5em;
         margin-right: 1em;
+    }
+    img.filtericon {
+        display: none;
     }
 }
 
 @media only screen and (max-width: 28.12em) {
     main {
-        -webkit-animation: animatedBackground 90s linear infinite;
-        animation: animatedBackground 90s linear infinite;
+        -webkit-animation: animatedBackground 100s linear infinite;
+        animation: animatedBackground 100s linear infinite;
+        background-attachment: fixed;
+        background-position: 0px 0px;
     }
-    img.filtericon {
+    aside img.filtericon {
         display: none;
     }
-    #pagina1 p {
+    section div#pagina1 p {
         font-size: 1em;
     }
-    #pagina1 .deel1 p {
+    section div#pagina1 .deel1 p {
         margin-left: 1em;
         margin-right: 1em;
     }
-    #pagina1 .deel2 p {
+    section div#pagina1 .deel2 p {
         margin-right: 1em;
     }
-    #pagina1 .deel3 p {
+    section div#pagina1 .deel3 p {
         margin-left: 1em;
         margin-right: 0.5em;
         margin-bottom: 2em;
     }
-    #pagina2 p {
+    section div#pagina2 p {
         font-size: 1em;
     }
-    #pagina2 .deel1 p {
+    section div#pagina2 .deel1 p {
         margin-top: 8em;
     }
-    #pagina2 .deel2 p {
+    section div#pagina2 .deel2 p {
         margin-left: 2.5em;
     }
-    #pagina2 .deel3 p {
+    section div#pagina2 .deel3 p {
         margin-right: 1em;
         margin-left: -2em;
     }
-    #pagina3 p {
+    section div#pagina3 p {
         font-size: 1em;
     }
-    #pagina3 .deel1 p {
+    section div#pagina3 .deel1 p {
         margin-right: 0.5em;
     }
-    #pagina3 .deel2 p {
+    section div#pagina3 .deel2 p {
         margin-right: 1em;
     }
-    #pagina3 .deel3 p {
+    section div#pagina3 .deel3 p {
         margin-right: 1em;
         margin-left: -2em;
     }
-    #pagina4 p {
+    section div#pagina4 p {
         font-size: 1em;
     }
-    #pagina4 .deel1 p {
+    section div#pagina4 .deel1 p {
         margin-left: 1em;
     }
-    #pagina4 .deel2 p {
+    section div#pagina4 .deel2 p {
         margin-right: 0.5em;
         margin-left: 6em;
     }
-    #pagina4 .deel3 p {
+    section div#pagina4 .deel3 p {
         margin-right: 1em;
         margin-left: -2.5em;
     }
-    #pagina5 p {
+    section div#pagina5 p {
         font-size: 1em;
     }
-    #pagina5 .deel1 p {
+    section div#pagina5 .deel1 p {
         margin-right: 1em;
     }
-    #pagina5 .deel2 p {
+    section div#pagina5 .deel2 p {
         margin-left: 3em;
     }
-    #pagina5 .deel3 p {
+    section div#pagina5 .deel3 p {
         margin-left: -4em;
+    }
+    aside img.filtericon {
+        display: none;
     }
 }
