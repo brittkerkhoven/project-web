@@ -12,7 +12,7 @@ header {
     height: 6em;
 }
 
-.zoeken {
+input.zoeken {
     float: right;
     width: 13em;
 }
@@ -80,14 +80,14 @@ input[type=search] {
     margin-top: 2.3em;
 }
 
-.menu {
+img.menuicon {
     display: none;
 }
 
 
 /* foto banner */
 
-.Sectie1 {
+section.Sectie1 {
     width: 100%;
     height: 200px;
     background-image: url('../images/towerbridge.jpg');
@@ -96,7 +96,7 @@ input[type=search] {
     border-bottom: 0.5em solid rgb(36, 181, 201);
 }
 
-.Sectie1 article p {
+section.Sectie1 article p {
     font-family: arial;
     text-transform: uppercase;
     letter-spacing: 0.02em;
@@ -148,19 +148,19 @@ form {
 
 /* formulier inloggen */
 
-.account {
+article.account {
     width: 100%;
     background-color: #91d0dd;
     margin: 0em;
 }
 
-.achtergrond {
+section.achtergrond {
     background-color: #91d0dd;
     width: 100%;
     height: 80em;
 }
 
-.achtergrond2 {
+section article.achtergrond2 {
     background-color: white;
     border-radius: 0.5em;
     height: 70%;
@@ -169,7 +169,7 @@ form {
     margin-right: auto;
 }
 
-.achtergrond3 {
+section article.achtergrond3 {
     background-color: white;
     border-radius: 0.5em;
     height: 30%;
@@ -178,7 +178,7 @@ form {
     margin-right: auto;
 }
 
-.Terug {
+section article button.Terug {
     width: 7em;
     height: 2.5em;
     display: inline;
@@ -195,7 +195,7 @@ form {
     border-style: none;
 }
 
-.Terug:hover {
+section article button.Terug:hover {
     color: #91d0dd;
 }
 
@@ -208,7 +208,7 @@ input {
     border-radius: 0.25em;
 }
 
-fieldset {
+section article fieldset {
     border: none;
     color: #55565a;
     font-family: arial;
@@ -217,19 +217,19 @@ fieldset {
     font-size: 1em
 }
 
-fieldset label {
+section article fieldset label {
     margin-left: 0.5em;
 }
 
-article {
+section article {
     display: block;
 }
 
-.formulier {
+section article form fieldset.formulier {
     margin: 0.60em;
 }
 
-.account h1 {
+section .account h1 {
     color: #011633;
     font-family: sans-serif;
     line-height: 38px;
@@ -309,7 +309,7 @@ input[type=submit] {
     margin-left: 2.8em;
 }
 
-.aanmaken {
+a.aanmaken {
     display: block;
     background-color: #24b5c9;
     box-shadow: #1e96a6;
@@ -327,11 +327,11 @@ input[type=submit] {
     padding-top: 0.5em;
 }
 
-.aanmaken:hover {
+a.aanmaken:hover {
     color: #fada35;
 }
 
-.Inloggen {
+a.Inloggen {
     display: block;
     background-color: #fbdd0f;
     border: 1px;
@@ -350,7 +350,7 @@ input[type=submit] {
     margin-top: 2em;
 }
 
-.Inloggen:hover {
+a.Inloggen:hover {
     color: #91d0dd;
 }
 
@@ -365,11 +365,11 @@ form a {
     margin-left: 6.4em;
 }
 
-span.Extra {
+p a span.Extra {
     color: #24b5c9;
 }
 
-span.span2 {
+p a span.span2 {
     color: #24b5c9;
     margin-left: 6.3em;
 }
@@ -382,7 +382,7 @@ hr {
     border: 0.1em solid rgb(36, 181, 201);
 }
 
-.Deel1 {
+section.Deel1 {
     width: 100%;
     display: flex;
     flex-direction: row;
@@ -391,7 +391,7 @@ hr {
     margin-bottom: 5em;
 }
 
-h2 {
+section h2 {
     font-family: arial;
     letter-spacing: 0.05em;
     text-transform: uppercase;
@@ -402,7 +402,7 @@ h2 {
     width: 100%;
 }
 
-.Verliefd {
+section article.Verliefd {
     background-color: white;
     width: 20em;
     height: 29em;
@@ -414,7 +414,11 @@ h2 {
     overflow: hidden;
 }
 
-.foto1 {
+section article.Verliefd:hover {
+    transform: scale(1.05);
+}
+
+section article img.foto1 {
     width: 20em;
     height: 15em;
     border-top-left-radius: 0.5em;
@@ -422,20 +426,20 @@ h2 {
     margin-bottom: -0.3em;
 }
 
-.Verliefd p {
+section article.Verliefd p {
     overflow: hidden;
     color: rgb(74, 73, 73);
     font-size: 0.8em;
     margin-left: 1em;
 }
 
-.Verliefd h3 {
+section article.Verliefd h3 {
     margin-left: 1.5em;
     margin-top: 1em;
     color: rgb(74, 73, 73);
 }
 
-.leesverder {
+section article button.leesverder {
     font-family: arial;
     font-style: normal;
     font-weight: 700;
@@ -454,11 +458,11 @@ h2 {
     margin-top: 2.3em;
 }
 
-.leesverder:hover {
+section article button.leesverder:hover {
     color: rgb(36, 181, 201);
 }
 
-.hetGebrek {
+section article.hetGebrek {
     background-color: white;
     width: 20em;
     height: 29em;
@@ -470,27 +474,31 @@ h2 {
     overflow: hidden;
 }
 
-.foto2 {
+section article.hetGebrek:hover {
+    transform: scale(1.05);
+}
+
+section article img.foto2 {
     width: 20em;
     height: 15em;
     border-top-left-radius: 0.5em;
     border-top-right-radius: 0.5em;
 }
 
-.hetGebrek p {
+section article.hetGebrek p {
     overflow: hidden;
     color: rgb(74, 73, 73);
     font-size: 0.8em;
     margin-left: 1em;
 }
 
-.hetGebrek h3 {
+section article.hetGebrek h3 {
     margin-left: 1.5em;
     margin-top: 1em;
     color: rgb(74, 73, 73);
 }
 
-.Sportcommentaar {
+section article.Sportcommentaar {
     background-color: white;
     width: 20em;
     height: 29em;
@@ -502,21 +510,25 @@ h2 {
     overflow: hidden;
 }
 
-.foto3 {
+section article.Sportcommentaar:hover {
+    transform: scale(1.05);
+}
+
+section article img.foto3 {
     width: 20em;
     height: 15em;
     border-top-left-radius: 0.5em;
     border-top-right-radius: 0.5em;
 }
 
-.Sportcommentaar p {
+section article.Sportcommentaar p {
     overflow: hidden;
     color: rgb(74, 73, 73);
     font-size: 0.8em;
     margin-left: 1em;
 }
 
-.Sportcommentaar h3 {
+section article.Sportcommentaar h3 {
     margin-left: 1.5em;
     margin-top: 1em;
     color: rgb(74, 73, 73);
@@ -525,7 +537,7 @@ h2 {
 
 /* Section 2 */
 
-.Deel2 {
+section.Deel2 {
     width: 100%;
     display: flex;
     flex-direction: row;
@@ -536,7 +548,7 @@ h2 {
     padding-top: 0em;
 }
 
-.Nicodijkshoorn {
+section article.Nicodijkshoorn {
     background-color: white;
     width: 20em;
     height: 29em;
@@ -549,14 +561,18 @@ h2 {
     overflow: hidden;
 }
 
-.foto4 {
+section article.Nicodijkshoorn:hover {
+    transform: scale(1.05);
+}
+
+section article img.foto4 {
     width: 20em;
     height: 15em;
     border-top-left-radius: 0.5em;
     border-top-right-radius: 0.5em;
 }
 
-.Nicodijkshoorn p {
+section article.Nicodijkshoorn p {
     overflow: hidden;
     color: rgb(74, 73, 73);
     font-size: 0.8em;
@@ -564,13 +580,13 @@ h2 {
     margin-bottom: 0em;
 }
 
-.Nicodijkshoorn h3 {
+section article.Nicodijkshoorn h3 {
     margin-left: 1.5em;
     margin-top: 1em;
     color: rgb(74, 73, 73);
 }
 
-.Terugspoelen {
+section article.Terugspoelen {
     background-color: white;
     width: 20em;
     height: 29em;
@@ -583,27 +599,31 @@ h2 {
     overflow: hidden;
 }
 
-.foto5 {
+section article.Terugspoelen:hover {
+    transform: scale(1.05);
+}
+
+section article img.foto5 {
     width: 20em;
     height: 15em;
     border-top-left-radius: 0.5em;
     border-top-right-radius: 0.5em;
 }
 
-.Terugspoelen p {
+section article.Terugspoelen p {
     overflow: hidden;
     color: rgb(74, 73, 73);
     font-size: 0.8em;
     margin-left: 1em;
 }
 
-.Terugspoelen h3 {
+section article.Terugspoelen h3 {
     margin-left: 1.5em;
     margin-top: 1em;
     color: rgb(74, 73, 73);
 }
 
-.Vanvader {
+section article.Vanvader {
     background-color: white;
     width: 20em;
     height: 29em;
@@ -616,21 +636,25 @@ h2 {
     overflow: hidden;
 }
 
-.foto6 {
+section article.Vanvader:hover {
+    transform: scale(1.05);
+}
+
+section article img.foto6 {
     width: 20em;
     height: 15em;
     border-top-left-radius: 0.5em;
     border-top-right-radius: 0.5em;
 }
 
-.Vanvader p {
+section article.Vanvader p {
     overflow: hidden;
     color: rgb(74, 73, 73);
     font-size: 0.8em;
     margin-left: 1em;
 }
 
-.Vanvader h3 {
+section article.Vanvader h3 {
     margin-left: 1.5em;
     margin-top: 1em;
     color: rgb(74, 73, 73);
@@ -639,7 +663,7 @@ h2 {
 
 /* sectie 3 */
 
-.Deel3 {
+section.Deel3 {
     width: 100%;
     display: flex;
     flex-direction: row;
@@ -647,12 +671,12 @@ h2 {
     justify-content: center;
 }
 
-.Aparteh2 {
+section h2.Aparteh2 {
     margin-bottom: 1em;
     ;
 }
 
-.fotos {
+section article.fotos {
     position: relative;
     width: 25em;
     height: 14em;
@@ -662,7 +686,7 @@ h2 {
     justify-content: center;
 }
 
-.text-block {
+section article div.text-block {
     position: absolute;
     top: 0em;
     bottom: 0em;
@@ -675,7 +699,7 @@ h2 {
     padding-right: 1.25em;
 }
 
-.text-block p {
+section article div.text-block p {
     text-transform: uppercase;
     letter-spacing: 0.05em;
     font-size: 1.2em;
@@ -684,12 +708,12 @@ h2 {
     font-weight: 550;
 }
 
-hr.bruin {
+section article div hr.bruin {
     width: 10em;
     border: 0.1em solid rgb(85, 86, 90);
 }
 
-.text-block2 {
+section article div.text-block2 {
     position: absolute;
     top: 0em;
     bottom: 0em;
@@ -702,19 +726,19 @@ hr.bruin {
     padding-right: 1.25em;
 }
 
-.text-block2 p {
+section article div.text-block2 p {
     text-transform: uppercase;
     letter-spacing: 0.05em;
     font-size: 1.2em;
     padding-top: 3em;
 }
 
-hr.blauw {
+section article div hr.blauw {
     width: 10em;
     border: 0.1em solid white;
 }
 
-.text-block3 {
+section article div.text-block3 {
     position: absolute;
     top: 0em;
     bottom: 0em;
@@ -727,32 +751,32 @@ hr.blauw {
     padding-right: 1.25em;
 }
 
-.text-block3 p {
+section article div.text-block3 p {
     text-transform: uppercase;
     letter-spacing: 0.05em;
     font-size: 1.2em;
     padding-top: 2.5em;
 }
 
-.Deel3 img {
+section.Deel3 img {
     width: 25em;
     height: 14em;
 }
 
-.hr2 {
+section hr.hr2 {
     width: 100%;
     margin-left: 40em;
     margin-right: 40em;
 }
 
-.fotos:hover {
+section article.fotos:hover {
     opacity: 0.7;
 }
 
 
 /* hartje en downloaden stijlen */
 
-.favorieten {
+section article img.favorieten {
     display: inline;
     width: 8.5em;
     height: 7.5em;
@@ -761,7 +785,7 @@ hr.blauw {
     margin-right: -3.1em;
 }
 
-#Download {
+section article img#Download {
     display: inline;
     width: 5em;
     height: 4em;
@@ -770,17 +794,13 @@ hr.blauw {
     margin-right: -1.3em;
 }
 
-.Download {
+section article img.Download {
     display: inline;
     width: 5em;
     height: 4em;
     float: right;
     margin-top: -0.8em;
     margin-right: -1.3em;
-}
-
-@keyframes .favorieten:hover {
-    transition: rotate(180deg);
 }
 
 
@@ -876,7 +896,7 @@ input[type=checkbox]:after {
 
 /* The side navigation menu */
 
-.sidenav {
+aside div.sidenav {
     height: 100%;
     /* 100% Full-height */
     width: 0;
@@ -897,7 +917,7 @@ input[type=checkbox]:after {
 
 /* The navigation menu links */
 
-.sidenav a {
+aside div.sidenav a {
     padding top: 4em;
     padding-left: 3em;
     padding-right: 0;
@@ -912,7 +932,7 @@ input[type=checkbox]:after {
 
 /* When you mouse over the navigation links, change their color */
 
-.sidenav a:hover {
+aside div.sidenav a:hover {
     color: #f1f1f1;
 }
 
@@ -926,7 +946,7 @@ input[type=checkbox]:after {
     font-size: 2.25em;
 }
 
-.filtericon {
+aside img.filtericon {
     display: inline;
     float: left;
     margin-top: -5.5em;
@@ -935,7 +955,7 @@ input[type=checkbox]:after {
     height: 2em;
 }
 
-.sidefilter {
+aside div form.sidefilter {
     color: white;
     text-align: left;
     font-family: arial;
@@ -943,11 +963,11 @@ input[type=checkbox]:after {
     margin-top: 3em;
 }
 
-.sideMenu a {
+aside div.sideMenu a {
     display: none;
 }
 
-.menuicon {
+aside div img.menuicon {
     display: none;
 }
 
@@ -958,7 +978,7 @@ input[type=checkbox]:after {
     nav li {
         display: none;
     }
-    .sideMenu {
+    aside div.sideMenu {
         height: 100%;
         width: 0;
         position: fixed;
@@ -972,7 +992,7 @@ input[type=checkbox]:after {
         padding-top: 3.75em;
         text-align: center;
     }
-    .sideMenu a {
+    aside div.sideMenu a {
         padding: 0.5em 0.5em 0.5em 2em;
         text-decoration: none;
         font-size: 1.56em;
@@ -983,7 +1003,7 @@ input[type=checkbox]:after {
         transition: 0.3s;
         font-family: arial;
     }
-    .sideMenu a:hover {
+    aside div.sideMenu a:hover {
         color: #fada35;
     }
     .sideMenu .closebtn2 {
@@ -992,10 +1012,10 @@ input[type=checkbox]:after {
         right: 1.56em;
         font-size: 2.25em;
     }
-    #mySideMenu {
+    aside div#mySideMenu {
         float: right;
     }
-    img.menuicon {
+    aside img.menuicon {
         width: 2em;
         height: 2em;
         display: inline;
@@ -1003,7 +1023,7 @@ input[type=checkbox]:after {
         float: right;
         margin-right: 1em;
     }
-    img.filtericon {
+    aside img.filtericon {
         margin-top: -5.8em;
     }
     .persoonlijkeinformatie {
@@ -1017,37 +1037,43 @@ input[type=checkbox]:after {
         padding-top: 2em;
         text-align: center;
     }
-    form.persoonlijkeinformatie {
+    section article form.persoonlijkeinformatie {
         margin: 0em;
         padding: 0em;
     }
-    form.contactgegevens {
+    section article form.contactgegevens {
         margin: 0em;
         padding: 0em;
     }
-    fieldset {
+    section article form fieldset {
         margin: 0;
         text-align: left;
     }
-    fieldset label {
+    section article form fieldset label {
         margin-left: 0.5em;
     }
-    .span2 {
+    p a .span2 {
         margin-left: auto;
         margin-right: auto;
     }
     header img {
         margin-left: 0.5em;
     }
+    section hr.hr2 {
+        width: 100%;
+        text-align: center;
+        margin-left: 12em;
+        margin-right: 12em;
+    }
 }
 
 @media only screen and (max-width: 28.12em) {
-    .achtergrond2 {
+    section article.achtergrond2 {
         border-radius: 0;
-        height: 70%;
+        height: 60%;
         width: 100%;
     }
-    .achtergrond3 {
+    section article.achtergrond3 {
         border-radius: 0;
         height: 25%;
         width: 100%
@@ -1056,43 +1082,55 @@ input[type=checkbox]:after {
         max-width: 100%;
         height: auto;
     }
-    .Deel3 {
+    section.Deel3 {
         margin-left: -0.5em;
     }
-    .fotos {
+    section article.fotos {
         margin-bottom: 1em;
         margin-top: 1em;
     }
-    .Terugspoelen {
+    section article.Terugspoelen {
         margin-left: auto;
         margin-right: auto;
     }
-    .Vanvader {
+    section article.Vanvader {
         margin-left: auto;
         margin-right: auto;
     }
-    .Nicodijkshoorn {
+    section article.Nicodijkshoorn {
         margin-left: auto;
         margin-right: auto;
     }
-    .Sportcommentaar {
+    section article.Sportcommentaar {
         margin-left: auto;
         margin-right: auto;
     }
-    .hetGebrek {
+    section article.hetGebrek {
         margin-left: auto;
         margin-right: auto;
     }
-    .Verliefd {
+    section article.Verliefd {
         margin-left: auto;
         margin-right: auto;
     }
-    img.filtericon {
+    aside img.filtericon {
         margin-top: -6em;
         margin-left: 0.5em;
         display: inline;
     }
     header img {
         margin-left: 0.5em;
+    }
+    section hr.hr2 {
+        width: 100%;
+        text-align: center;
+        margin-left: 6em;
+        margin-right: 6em;
+    }
+    section article button.Terug {
+        width: 5em;
+        font-size: 0.65em;
+        text-align: center;
+        padding-left: 0.6em;
     }
 }
