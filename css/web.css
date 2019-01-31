@@ -89,7 +89,7 @@ img.menuicon {
 
 section.Sectie1 {
     width: 100%;
-    height: 200px;
+    height: 12.5em;
     background-image: url('../images/towerbridge.jpg');
     background-size: cover;
     border-top: 0.06em solid #011633;
@@ -232,8 +232,8 @@ section article form fieldset.formulier {
 section .account h1 {
     color: #011633;
     font-family: sans-serif;
-    line-height: 38px;
-    font-size: 30px;
+    line-height: 2.375em;
+    font-size: 1.875em;
     font-style: normal;
     font-weight: 400;
 }
@@ -449,9 +449,9 @@ section article button.leesverder {
     border: 0;
     box-shadow: rgb(222, 194, 4) 0px 2px 0px 0px, rgba(0, 0, 0, 0.2) 0px 3px 2px 0px;
     cursor: pointer;
-    height: 40px;
-    width: 300px;
-    border-radius: 4px;
+    height: 2.5em;
+    width: 18.75em;
+    border-radius: 0.25em;
     text-transform: uppercase;
     text-align: center;
     margin-left: 0.5em;
@@ -1022,6 +1022,10 @@ aside div img.menuicon {
         margin-top: -6em;
         float: right;
         margin-right: 1em;
+    }
+    aside img#menuicon2 {
+        margin-top: 0.5em;
+        margin-right: 1.5em
     }
     aside img.filtericon {
         margin-top: -5.8em;
