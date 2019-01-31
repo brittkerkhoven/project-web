@@ -264,8 +264,8 @@ section div#pagina6 .plaatsReactie:hover {
 
 @media only screen and (max-width: 46.87em) {
     main {
-        -webkit-animation: animatedBackground 70s linear infinite;
-        animation: animatedBackground 70s linear infinite;
+        -webkit-animation: animatedBackground 80s linear infinite;
+        animation: animatedBackground 80s linear infinite;
         background-attachment: fixed;
         background-position: 0px 0px;
     }
@@ -313,9 +313,9 @@ section div#pagina6 .plaatsReactie:hover {
 }
 
 @media only screen and (max-width: 28.12em) {
-    main {
-        -webkit-animation: animatedBackground 100s linear infinite;
-        animation: animatedBackground 100s linear infinite;
+    body {
+        -webkit-animation: animatedBackground 85s linear infinite;
+        animation: animatedBackground 85s linear infinite;
         background-attachment: fixed;
         background-position: 0px 0px;
     }
